@@ -1,0 +1,25 @@
+html {
+    font-size: 16px;
+    background-color: antiquewhite;
+    
+}
+
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav h1 {
+    width: 50%;
+    margin-right: auto;
+}
+nav li {
+    display: inline;
+}
+nav ul {
+    margin-left: auto;
+    width:50%;
+    text-align: right;
+}
