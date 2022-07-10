@@ -35,3 +35,6 @@ nav ul {
 .about-me-text {
     padding-right: 70px;
 }
+.projects-container {
+    display: block;
+}
