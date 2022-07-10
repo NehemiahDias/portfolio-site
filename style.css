@@ -5,10 +5,7 @@ html {
 body {
     margin: 0px;
 }
-nav {/*
-    border-bottom: 2px solid black;
-    border-radius: 10px;
-    */
+nav {
     padding: 0 70px;
     display: flex;
     align-items: center;
@@ -19,6 +16,7 @@ nav h1 {
 }
 nav li {
     display: inline-block;
+    margin-left: 30px;
 }
 nav ul {
     padding: 0 20px;
@@ -49,7 +47,6 @@ nav ul {
     padding: 20px 70px;
 }
 .skills-section {
-    display: flexbox;
     padding: 20px 70px;
 }
 .skills-images img {
