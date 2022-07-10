@@ -6,20 +6,23 @@ body {
     margin: 0px;
 }
 nav {
-    background-color: black;
-    color: white;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
     width: 100%;
     display: flex;
     align-items: center;
 }
 nav h1 {
+    padding: 0 20px;
     width: 50%;
     margin-right: auto;
 }
 nav li {
-    display: inline;
+    display: inline-block;
 }
 nav ul {
+    padding: 0 20px;
+    display: block;
     margin-left: auto;
     width: 50%;
     text-align: right;
@@ -29,11 +32,17 @@ nav ul {
     padding: 20px 30px;
 }
 .about-me-container img {
-    width: 30%;
-    margin-left: auto;
+    margin-top: 70px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: 50px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: 100% 0;
 }
 .about-me-text {
-    padding-right: 70px;
+    width: 60%;
 }
 .projects-container {
     display: block;
