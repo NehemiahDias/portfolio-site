@@ -25,6 +25,16 @@ nav ul {
     width: 50%;
     text-align: right;
 }
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+nav a:hover {
+    color: goldenrod;
+    font-size: 1.10rem;
+    transition: 0.1s ease-in-out;
+}
 .about-me-container {
     display: flex;
     padding: 20px 70px;
