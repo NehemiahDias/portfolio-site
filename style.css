@@ -5,15 +5,15 @@ html {
 body {
     margin: 0px;
 }
-nav {
+nav {/*
     border-bottom: 2px solid black;
     border-radius: 10px;
-    width: 100%;
+    */
+    padding: 0 70px;
     display: flex;
     align-items: center;
 }
 nav h1 {
-    padding: 0 20px;
     width: 50%;
     margin-right: auto;
 }
@@ -29,7 +29,7 @@ nav ul {
 }
 .about-me-container {
     display: flex;
-    padding: 20px 30px;
+    padding: 20px 70px;
 }
 .about-me-container img {
     margin-top: 70px;
@@ -46,10 +46,10 @@ nav ul {
 }
 #projects {
     display: block;
-    padding: 20px 30px;
+    padding: 20px 70px;
 }
 .skills-section {
-    padding: 20px 30px;
+    padding: 20px 70px;
 }
 .skills-images img {
     width: 50px;
