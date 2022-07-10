@@ -1,6 +1,8 @@
 html {
     font-size: 16px;
-    background-color: antiquewhite;
+    background-color: #faead6;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
 }
 body {
     margin: 0px;
@@ -27,13 +29,11 @@ nav ul {
 }
 nav a {
     text-decoration: none;
-    color: black;
-    transition: 0.1s ease-in-out;
+    color: #000;
 }
 nav a:hover {
-    color: goldenrod;
-    font-size: 1.10rem;
-    transition: 0.1s ease-in-out;
+    color: #5D3623;
+    text-decoration: underline;
 }
 .about-me-container {
     display: flex;
@@ -78,4 +78,15 @@ nav a:hover {
 #contact-me img {
     width: 50px;
     height: 50px;
+}
+#projects a {
+    color: #000;
+    text-decoration: none;
+}
+#projects a:hover {
+    color: #5D3623;
+    text-decoration: underline;
+}
+#projects a::before{
+    content: "»"
 }
