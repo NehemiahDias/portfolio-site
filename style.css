@@ -5,10 +5,10 @@ html {
     font-family: 'Roboto Mono', monospace;
 }
 body {
-    margin: 0px;
+    margin: 0;
 }
 nav {
-    padding: 0 70px;
+    padding: 0 4.375rem;
     display: flex;
     align-items: center;
 }
@@ -18,10 +18,10 @@ nav h1 {
 }
 nav li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 nav ul {
-    padding: 0 20px;
+    padding: 0 1.25rem;
     display: block;
     margin-left: auto;
     width: 50%;
@@ -37,16 +37,16 @@ nav a:hover {
 }
 .about-me-container {
     display: flex;
-    padding: 20px 70px;
+    padding: 1.25rem 4.375rem;
 }
 .about-me-container img {
-    margin-top: 70px;
-    width: 350px;
+    margin-top: 4.375rem;
+    width: 21.875rem;
     margin-right: auto;
-    margin-left: 50px;
-    height: 350px;
+    margin-left: 3.125rem;
+    height: 21.875rem;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     object-position: 100% 0;
 }
 .about-me-text {
@@ -57,17 +57,17 @@ nav a:hover {
 }
 #projects {
     display: block;
-    padding: 20px 70px;
+    padding: 1.25rem 4.375rem;
 }
 #projects h2 {
     font-size: 2rem;
 }
 .skills-section {
-    padding: 20px 70px;
+    padding: 1.25rem 4.375rem;
 }
 .skills-images img {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .skills-title {
     width: 100%;
@@ -81,12 +81,12 @@ nav a:hover {
     justify-content: space-evenly;
 }
 #contact-me {
-    padding: 20px 70px;
+    padding: 1.25rem 4.375rem;
     width: 60%;
 }
 #contact-me img {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 #contact-me h2 {
     font-size: 2rem;
@@ -103,7 +103,7 @@ nav a:hover {
     content: "»"
 }
 .project-title {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 #promo-content {
     display: none;
@@ -117,6 +117,3 @@ nav a:hover {
 #sf-coffee-content {
     display: none;
 }
-/*.content {
-    display: none;
-}*/
