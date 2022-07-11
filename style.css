@@ -105,15 +105,18 @@ nav a:hover {
 .project-title {
     margin-top: 50px;
 }
-.promo-content {
+#promo-content {
     display: none;
 }
-.wallpaper-content {
+#wallpaper-content {
     display: none;
 }
-.cm-luxury-content {
+#cm-luxury-content {
     display: none;
 }
-.sf-coffee-content {
+#sf-coffee-content {
     display: none;
 }
+/*.content {
+    display: none;
+}*/
