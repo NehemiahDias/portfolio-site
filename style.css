@@ -13,7 +13,7 @@ nav {
     align-items: center;
 }
 nav h1 {
-    width: 50%;
+    width: 30%;
     margin-right: auto;
 }
 nav li {
@@ -24,7 +24,7 @@ nav ul {
     padding: 0 1.25rem;
     display: block;
     margin-left: auto;
-    width: 50%;
+    width: 70%;
     text-align: right;
 }
 nav a {
@@ -34,6 +34,19 @@ nav a {
 nav a:hover {
     color: #5D3623;
     text-decoration: underline;
+}
+@media screen and (max-width: 550px){
+    nav h1 {
+        display: none;
+    }
+    nav ul {
+        width: 100%;
+        text-align: center;
+    }
+    nav li {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 .about-me-container {
     display: flex;
@@ -54,6 +67,23 @@ nav a:hover {
 }
 .about-me-text h2 {
     font-size: 2rem;
+}
+@media screen and (max-width: 800px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+    .about-me-text {
+        width: 100%;
+    }
+    .about-me-container img {
+        margin: 1.5rem auto;
+    }
+}
+@media screen and (max-width: 450px){
+    .about-me-container img {
+        width: 15rem;
+        height: 15rem;
+    }
 }
 #projects {
     display: block;
@@ -77,8 +107,15 @@ nav a:hover {
 }
 .skills-images {
     display: flex;
+    flex-shrink: 1;
     width: 100%;
     justify-content: space-evenly;
+}
+@media screen and (max-width: 450px){
+    .skills-images img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 #contact-me {
     padding: 1.25rem 4.375rem;
@@ -116,4 +153,18 @@ nav a:hover {
 }
 #sf-coffee-content {
     display: none;
+}
+
+@media screen and (max-width: 550px) {
+    #projects img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    #projects img {
+        display: none;
+    }
+    .about-me-container img {
+        width: 100%;
+    }
 }
