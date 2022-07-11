@@ -105,3 +105,15 @@ nav a:hover {
 .project-title {
     margin-top: 50px;
 }
+.promo-content {
+    display: none;
+}
+.wallpaper-content {
+    display: none;
+}
+.cm-luxury-content {
+    display: none;
+}
+.sf-coffee-content {
+    display: none;
+}
