@@ -10,6 +10,8 @@
     align-items: center;
     height: 70px;
     background-color: beige;
+    position: absolute;
+    top: 0;
 }
 #navbar ul {
     display: flex;
@@ -23,8 +25,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    color: white;
+}
+.continue {
+    position: absolute;
+    bottom: 20px;
 }
 .welcome-bg {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
