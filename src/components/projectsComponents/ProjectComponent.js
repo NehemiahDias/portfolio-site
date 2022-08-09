@@ -1,6 +1,8 @@
 import React from 'react';
 import './ProjectComponent.css';
 import promoGen from '../images/promo-gen-ss.png';
+import randomOrg from '../images/random-org-ss.png';
+import quoteGen from '../images/quote-generator-ss.png';
 
 function ProjectComponent() {
   return (
@@ -9,7 +11,7 @@ function ProjectComponent() {
         <div className="projects">
             <div className="project promo-code">
                 <div className='project-image'>
-                    <img src={promoGen} alt="Promo Gen Image"/>
+                    <img src={promoGen} alt="Promo Generator Demo"/>
                 </div>
                 
                 <div className='project-desc'>
@@ -35,23 +37,37 @@ function ProjectComponent() {
             </div>
 
             <div className="project randomorg">
-                <h2 className="project-title">Random.org Clone</h2>
-                <p>A clone of the site, random.org. I made this because I use the original site to shuffle my spotify playlist but because the real sites' features are out of the scope, I only added the ones I use most or use the most. I made it a single page app because I wanted it to be fast and I love using React!</p>
-                <h3>Technologies Used:</h3>
-                <ul>
-                    <li>ReactJs</li>
-                    <li>React Router v6</li>
-                    <li>JavaScript</li>
-                </ul>
-                <h3>What I learned / Results</h3>
-                <ul>
-                    <li>I can make any site much faster with React</li>
-                    <li>It was way more responsive and produced mass lists much faster</li>
-                    <li>I refined my skills in creating single page applications</li>
-                </ul>
+                <div className="project-image">
+                    <img src={randomOrg} alt="random.org clone demo" />
+                </div> 
+
+                <div className="project-desc">
+                    <h2 className="project-title">Random.org Clone</h2>
+                    <p>A clone of the site, random.org. I made this because I use the original site to shuffle my spotify playlist but because the real sites' features are out of the scope, I only added the ones I use most or use the most. I made it a single page app because I wanted it to be fast and I love using React!</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                        <li>ReactJs</li>
+                        <li>React Router v6</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <h3>What I learned / Results</h3>
+                    <ul>
+                        <li>I can make any site much faster with React</li>
+                        <li>It was way more responsive and produced mass lists much faster</li>
+                        <li>I refined my skills in creating single page applications</li>
+                    </ul>
+                    <div className="project-buttons">
+                        <button><span className="button-icon">&lt;</span> Code <span className="button-icon">/&gt;</span></button>
+                        <button><i className="fa-solid fa-eye"></i> Live</button>
+                    </div>
+                </div>
             </div>
 
             <div className="project quote-generator">
+                <div className='project-image'>
+                    <img src={quoteGen} alt='quote generator demo' />
+                </div>
+
                 <h2 className="project-title">Quote Generator</h2>
                 <p>A simple single page site that produces a new quote along with the author every time you click 'New Quote'. The site also has the functionality to automatically post the quote and author in text format to Twitter or Tumblr by clicking the logo.</p>
                 <h3>Technologies Used</h3>
@@ -64,6 +80,10 @@ function ProjectComponent() {
                     <li>Made me more comfortable with the use of APIs</li>
                     <li>The use of Twitter / Tumblr to automatically format post</li>
                 </ul>
+                <div className="project-buttons">
+                    <button><span className="button-icon">&lt;</span> Code <span className="button-icon">/&gt;</span></button>
+                    <button><i className="fa-solid fa-eye"></i> Live</button>
+                </div>
             </div>
         </div>
     </section>
