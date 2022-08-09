@@ -7,11 +7,11 @@ function HeaderComponent() {
         <nav id='navbar'>
             <h1>Nehemiah Dias</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#"><i className="fa-solid fa-sun"></i></a></li>
+                <li>Home</li>
+                <li>Projects</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><i className="fa-solid fa-sun"></i></li>
             </ul>
         </nav>
     </header>
