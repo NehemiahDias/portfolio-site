@@ -1,6 +1,9 @@
+import MainComponent from "./components/MainComponent";
 
 function App() {
-  return null;
+  <>
+    <MainComponent/>
+  </>
 }
 
 export default App;
