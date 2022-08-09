@@ -4,16 +4,20 @@ import './HeaderComponent.css';
 function HeaderComponent() {
   return (
     <header>
+      <div id='header-nav'>
+        <div className="nav-logo">
+          <h1>ND</h1>
+        </div>
         <nav id='navbar'>
-            <h1>ND</h1>
-            <ul className="sub-text">
-                <li>Home</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li><i className="fa-solid fa-sun"></i></li>
-            </ul>
+          <ul className="sub-text">
+              <li><span className='purple'>{">"} </span>Home</li>
+              <li><span className='purple'>{">"} </span>Projects</li>
+              <li><span className='purple'>{">"} </span>About</li>
+              <li><span className='purple'>{">"} </span>Contact</li>
+              <li><i className="fa-solid fa-sun"></i></li>
+          </ul>
         </nav>
+      </div>
     </header>
   )
 }

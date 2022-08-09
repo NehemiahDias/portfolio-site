@@ -1,4 +1,4 @@
-#navbar {
+#header-nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -8,6 +8,11 @@
     color: white;
     position: fixed;
     top: 0;
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
 }
 #navbar ul {
     display: flex;
