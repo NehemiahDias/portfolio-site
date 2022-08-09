@@ -73,8 +73,8 @@ function ProjectComponent() {
                     <p>A simple single page site that produces a new quote along with the author every time you click 'New Quote'. The site also has the functionality to automatically post the quote and author in text format to Twitter or Tumblr by clicking the logo.</p>
                     <h3>Technologies Used</h3>
                     <ul>
-                        <li><span className='purple'>{'>'} </span>ReactJs</li>
-                        <li><span className='purple'>{'>'} </span> Quotable API</li>
+                        <li>ReactJs</li>
+                        <li>Quotable API</li>
                     </ul>
                     <h3>What I Learned / Results</h3>
                     <ul>
