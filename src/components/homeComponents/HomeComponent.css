@@ -12,10 +12,6 @@
     align-items: flex-start;
     flex-direction: column;
 }
-.main-title {
+.large-text {
     font-size: 4.5rem;
-}
-.role-text {
-    font-size: 4.5rem;
-    color: #ACA7CB;
 }

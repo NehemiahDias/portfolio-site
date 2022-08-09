@@ -14,3 +14,9 @@ body {
 .sub-text {
     font-family: 'Source Code Pro', monospace;
 }
+.off-purple {
+    color: #ACA7CB;
+}
+.deep-grey {
+    color: #787586;
+}

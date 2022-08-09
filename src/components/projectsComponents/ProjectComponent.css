@@ -7,12 +7,14 @@
     margin-bottom: 30px;
 }
 .project {
-    padding: 10px 30px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
+    width: 40%;
     align-items: center;
-    background-color: #787586;
+    background-color: #272533;
+    padding: 20px;
+    border-radius: 5px;
+}
+.project-image img {
+    width: 100%;
 }
 .project-buttons button {
     padding: 5px 10px;
@@ -26,5 +28,7 @@
 }
 .projects {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
 }
