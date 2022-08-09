@@ -5,7 +5,6 @@
     align-items: center;
     height: 70px;
     backdrop-filter: blur(10px);
-    color: white;
     position: fixed;
     top: 0;
 }
