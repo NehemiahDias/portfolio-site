@@ -10,10 +10,10 @@ function HeaderComponent() {
         </div>
         <nav id='navbar'>
           <ul className="sub-text">
-              <li><span className='purple'>{">"} </span>Home</li>
-              <li><span className='purple'>{">"} </span>Projects</li>
-              <li><span className='purple'>{">"} </span>About</li>
-              <li><span className='purple'>{">"} </span>Contact</li>
+              <li><span className='purple'>{">"} </span><a href='#projects'>Home</a></li>
+              <li><span className='purple'>{">"} </span><a href='#projects-section'>Projects</a></li>
+              <li><span className='purple'>{">"} </span><a href='#projects'>About</a></li>
+              <li><span className='purple'>{">"} </span><a href='#projects'>Contact</a></li>
               <li><i className="fa-solid fa-sun"></i></li>
           </ul>
         </nav>

@@ -20,3 +20,11 @@
     justify-content: space-evenly;
     list-style-type: none;
 }
+#navbar ul li a {
+    color: #FAF8FF;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+#navbar ul li a:hover {
+    color: #FF00FF;
+}

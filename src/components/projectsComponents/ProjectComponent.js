@@ -30,8 +30,8 @@ function ProjectComponent() {
                         <li>Customers loved it!</li>
                     </ul>
                     <div className="project-buttons">
-                        <a href="https://www.google.com" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.google.com" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.google.com" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -57,8 +57,8 @@ function ProjectComponent() {
                         <li>I refined my skills in creating single page applications</li>
                     </ul>
                     <div className="project-buttons">
-                        <a href="https://www.google.com" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.google.com" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.google.com" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@ function ProjectComponent() {
                         <li>The use of Twitter / Tumblr to automatically format post</li>
                     </ul>
                     <div className="project-buttons">
-                        <a href="https://www.google.com" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.google.com" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.google.com" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
