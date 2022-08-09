@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './ProjectComponent.css';
 
 function ProjectComponent() {
   return (

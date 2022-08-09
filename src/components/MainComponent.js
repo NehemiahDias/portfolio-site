@@ -1,7 +1,7 @@
 import React from 'react'
 
 import HeaderComponent from './headerConponents/HeaderComponent';
-import HomeComonent from './homeComponents/HomeComonent';
+import HomeComonent from './homeComponents/HomeComponent';
 import ProjectComponent from './projectsComponents/ProjectComponent';
 
 function MainComponent() {
