@@ -5,4 +5,11 @@
 }
 body {
     background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+}
+.purple {
+    color: #FF00FF;
+}
+.sub-text {
+    font-family: 'Source Code Pro', monospace;
 }

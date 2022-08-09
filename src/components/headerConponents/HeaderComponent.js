@@ -5,8 +5,8 @@ function HeaderComponent() {
   return (
     <header>
         <nav id='navbar'>
-            <h1>Nehemiah Dias</h1>
-            <ul>
+            <h1>ND</h1>
+            <ul className="sub-text">
                 <li>Home</li>
                 <li>Projects</li>
                 <li>About</li>
