@@ -30,7 +30,7 @@ function ProjectComponent() {
                         <li>Customers loved it!</li>
                     </ul>
                     <div className="project-buttons">
-                        <button><span className="button-icon">&lt;</span> Code <span className="button-icon">/&gt;</span></button>
+                        <button>Code</button>
                         <button><i className="fa-solid fa-eye"></i> Live</button>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function ProjectComponent() {
                         <li>I refined my skills in creating single page applications</li>
                     </ul>
                     <div className="project-buttons">
-                        <button><span className="button-icon">&lt;</span> Code <span className="button-icon">/&gt;</span></button>
+                        <button>Code</button>
                         <button><i className="fa-solid fa-eye"></i> Live</button>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ function ProjectComponent() {
                     <li>The use of Twitter / Tumblr to automatically format post</li>
                 </ul>
                 <div className="project-buttons">
-                    <button><span className="button-icon">&lt;</span> Code <span className="button-icon">/&gt;</span></button>
+                    <button>Code</button>
                     <button><i className="fa-solid fa-eye"></i> Live</button>
                 </div>
             </div>

@@ -6,6 +6,12 @@
     text-align: center;
     margin-bottom: 30px;
 }
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
 .project {
     width: 40%;
     align-items: center;
@@ -17,18 +23,16 @@
     width: 100%;
 }
 .project-buttons button {
-    padding: 5px 10px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-color: #FF00FF;
+    border-radius: 5px;
+    color: #FF00FF;
+    font-family: 'Source Code Pro', monospace;
+    transition: 0.2s ease-in-out;
 }
-.project-buttons button:hover .button-icon {
-    color: black;
-}
-.button-icon {
-    color: transparent;
-    transition: 0.3s ease-in-out;
-}
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
+.project-buttons button:hover {
+    cursor: pointer;
+    color: #FAF8FF;
+    background-color: #121212;
 }
