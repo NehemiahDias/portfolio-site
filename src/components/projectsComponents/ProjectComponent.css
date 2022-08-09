@@ -22,6 +22,27 @@
 .project-image img {
     width: 100%;
 }
+.project-buttons {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-desc h3, .project-title {
+    text-align: center;
+}
+.project-desc ul {
+    list-style-type: none;
+}
+.project-buttons a {
+    color: #FAF8FF;
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+}
+.project-buttons a:hover {
+    color: #FF00FF;
+}
+/*
 .project-buttons button {
     padding: 5px 15px;
     background-color: transparent;
@@ -36,3 +57,4 @@
     color: #FAF8FF;
     background-color: #121212;
 }
+*/

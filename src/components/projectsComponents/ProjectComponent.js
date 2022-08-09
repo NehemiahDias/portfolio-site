@@ -68,21 +68,23 @@ function ProjectComponent() {
                     <img src={quoteGen} alt='quote generator demo' />
                 </div>
 
-                <h2 className="project-title">Quote Generator</h2>
-                <p>A simple single page site that produces a new quote along with the author every time you click 'New Quote'. The site also has the functionality to automatically post the quote and author in text format to Twitter or Tumblr by clicking the logo.</p>
-                <h3>Technologies Used</h3>
-                <ul>
-                    <li>ReactJs</li>
-                    <li>Quotable API</li>
-                </ul>
-                <h3>What I Learned / Results</h3>
-                <ul>
-                    <li>Made me more comfortable with the use of APIs</li>
-                    <li>The use of Twitter / Tumblr to automatically format post</li>
-                </ul>
-                <div className="project-buttons">
-                    <button>Code</button>
-                    <button><i className="fa-solid fa-eye"></i> Live</button>
+                <div className='project-desc'>
+                    <h2 className="project-title">Quote Generator</h2>
+                    <p>A simple single page site that produces a new quote along with the author every time you click 'New Quote'. The site also has the functionality to automatically post the quote and author in text format to Twitter or Tumblr by clicking the logo.</p>
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li>ReactJs</li>
+                        <li>Quotable API</li>
+                    </ul>
+                    <h3>What I Learned / Results</h3>
+                    <ul>
+                        <li>Made me more comfortable with the use of APIs</li>
+                        <li>The use of Twitter / Tumblr to automatically format post</li>
+                    </ul>
+                    <div className="project-buttons">
+                        <a href="https://www.google.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
