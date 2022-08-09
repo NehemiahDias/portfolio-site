@@ -5,16 +5,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 70%;
+    margin: auto;
     color: white;
-}
-.continue {
-    position: absolute;
-    bottom: 20px;
 }
 .welcome-bg {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+}
+.small-text {
+    color: blue;
+}
+.main-title {
+    font-size: 4.5rem;
+}
+.role-text {
+    font-size: 4.5rem;
+    color: rgb(200, 200, 200);
 }
