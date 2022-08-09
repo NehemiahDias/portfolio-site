@@ -10,14 +10,15 @@ function ProjectComponent() {
         <h1 className="section-title">Projects</h1>
         <div className="projects">
             <div className="project promo-code">
-                <div className='project-image'>
-                    <img src={promoGen} alt="Promo Generator Demo"/>
-                </div>
-                
-                <div className='project-desc'>
+                <div className='project-intro'>
+                    <div className='cover-color'>
+                        <img src={promoGen} alt="Promo Generator Demo"/>
+                    </div>
                     <h2 className="project-title off-purple">Promo Code Generator</h2>
-                    <p>A command line project which was also my first ever project! The purpose was to generate a Promo Code and email it to a customers' email automatically. I made this for a business that I started years ago, it made me fall in love with programming because it showcased that something so simple can solve any problem, it also felt really good to be the one to solve that problem. Although not pretty, it was very functional and fast and pretty good for a beginner.</p>
-                    <h3>What I used:</h3>
+                    <p>A command line project with the purpose of generating a Promo Code and emailing it to a customers' email automatically. I made this for a business that I started years ago in order to promote organic growth.</p>
+                </div>
+                <div className='project-details'>
+                    <h3>Technology Used:</h3>
                     <ul>
                         <li>Python</li>
                         <li>GMAIL Libraries and APIs</li>
@@ -37,14 +38,15 @@ function ProjectComponent() {
             </div>
 
             <div className="project randomorg">
-                <div className="project-image">
-                    <img src={randomOrg} alt="random.org clone demo" />
-                </div> 
-
-                <div className="project-desc">
+                <div className='project-intro'>
+                    <div className='cover-color'>
+                        <img src={randomOrg} alt="random.org clone demo" />
+                    </div>
                     <h2 className="project-title off-purple">Random.org Clone</h2>
                     <p>A clone of the site, random.org. I made this because I use the original site to shuffle my spotify playlist but because the real sites' features are out of the scope, I only added the ones I use most or use the most. I made it a single page app because I wanted it to be fast and I love using React!</p>
-                    <h3>Technologies Used:</h3>
+                </div>
+                <div className='project-details'>
+                    <h3>Technology Used:</h3>
                     <ul>
                         <li>ReactJs</li>
                         <li>React Router v6</li>
@@ -64,14 +66,15 @@ function ProjectComponent() {
             </div>
 
             <div className="project quote-generator">
-                <div className='project-image'>
-                    <img src={quoteGen} alt='quote generator demo' />
-                </div>
-
-                <div className='project-desc'>
+                <div className='project-intro'>
+                    <div className='cover-color'>
+                        <img src={quoteGen} alt='quote generator demo' />
+                    </div>
                     <h2 className="project-title off-purple">Quote Generator</h2>
                     <p>A simple single page site that produces a new quote along with the author every time you click 'New Quote'. The site also has the functionality to automatically post the quote and author in text format to Twitter or Tumblr by clicking the logo.</p>
-                    <h3>Technologies Used</h3>
+                </div>
+                <div className='project-details'>
+                    <h3>Technology Used</h3>
                     <ul>
                         <li>ReactJs</li>
                         <li>Quotable API</li>

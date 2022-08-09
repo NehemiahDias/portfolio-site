@@ -14,14 +14,30 @@
 }
 .project {
     width: 40%;
-    position: relative;
     z-index: 1;
     background-color: #272533;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 5px;
 }
-.project-image img {
+.cover-color {
+    height: 199px;
     width: 100%;
+    border-radius: 5px;
+    background: #FF00FF;
+}
+.project-intro img {
+    opacity: 0.9;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+}
+.project-intro img:hover {
+    transform: scale(1.05);
+    opacity: 1;
 }
 .project-buttons {
     width: 100%;
@@ -29,18 +45,21 @@
     display: flex;
     justify-content: space-evenly;
 }
-.project-desc h3, .project-title {
+.project-details {
+    margin-top: 30px;
+}
+.project-details h3, .project-title {
     text-align: center;
     margin: 15px 0;
 }
-.project-desc ul {
+.project-details ul {
     margin: 20px 0;
 }
-.project-desc ul li {
+.project-details ul li {
     padding: 5px 5px 5px 10px;
     display: list-item;
 }
-.project-desc ul li::marker {
+.project-details ul li::marker {
     content: ">";
     color: #FF00FF;
 }
@@ -52,19 +71,3 @@
 .project-buttons a:hover {
     color: #FF00FF;
 }
-/*
-.project-buttons button {
-    padding: 5px 15px;
-    background-color: transparent;
-    border-color: #FF00FF;
-    border-radius: 5px;
-    color: #FF00FF;
-    font-family: 'Source Code Pro', monospace;
-    transition: 0.2s ease-in-out;
-}
-.project-buttons button:hover {
-    cursor: pointer;
-    color: #FAF8FF;
-    background-color: #121212;
-}
-*/
