@@ -1,9 +1,11 @@
 import MainComponent from "./components/MainComponent";
 
 function App() {
-  <>
-    <MainComponent/>
-  </>
+  return (
+    <>
+      <MainComponent/>
+    </>
+  )
 }
 
 export default App;

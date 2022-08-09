@@ -1,10 +1,12 @@
 import React from 'react'
 
+import HeaderComponent from './headerConponents/HeaderComponent'
+
 function MainComponent() {
   return (
-    <div>
-        <h1>Main Component</h1>
-    </div>
+    <>
+      <HeaderComponent />
+    </>
   )
 }
 
