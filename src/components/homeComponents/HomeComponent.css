@@ -1,6 +1,7 @@
 #welcome-section {
     text-align: center;
-    background: url('../../../public/images/home-bg.jpg');
+    background-color: #121212;
+    /*background: url('../../../public/images/home-bg.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -11,7 +12,6 @@
     bottom: 20px;
 }
 .welcome-bg {
-    background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     display: flex;
     justify-content: center;

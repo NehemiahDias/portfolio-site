@@ -4,8 +4,9 @@
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    background-color: beige;
-    position: absolute;
+    backdrop-filter: blur(10px);
+    color: white;
+    position: fixed;
     top: 0;
 }
 #navbar ul {
