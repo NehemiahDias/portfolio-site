@@ -10,7 +10,7 @@ function HeaderComponent() {
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#"><i class="fa-solid fa-sun"></i></a></li>
+                <li><a href="#"><i className="fa-solid fa-sun"></i></a></li>
             </ul>
         </nav>
     </header>
