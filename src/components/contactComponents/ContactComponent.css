@@ -11,10 +11,22 @@
 }
 .contact-buttons button {
     width: 60%;
-    height: 40px;
+    height: 50px;
     background-color: #121212;
     color: #FAF8FF;
     border-radius: 3px;
     border-color: #FAF8FF;
     margin: auto;
+    position: relative;
+    font-size: 1.5rem;
+    transition: 0.4s ease-out;
+}
+.contact-buttons button:hover {
+    background-color: #FAF8FF;
+    color: #121212;
+    cursor: pointer;
+}
+.contact-buttons button i {
+    position: absolute;
+    left: 10px;
 }
