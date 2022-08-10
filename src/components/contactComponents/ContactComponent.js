@@ -10,6 +10,23 @@ function ContactComponent() {
             <button><i class="fa-brands fa-github"></i> Github</button>
             <button><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
         </div>
+        <form name='contact-form' method='post' data-netlify='true' onSubmit='submit'>
+          <input type='hidden' name='form-name' value='contact-form' />
+          <div className='input-field'>
+            <p>Name</p>
+            <input type='text' name='name' required/>
+          </div>
+          <div className='input-field'>
+            <p>Email</p>
+            <input type='email' name='email' required/>
+          </div>
+          <div className='input-field'>
+            <p>Any Comments?</p>
+            <textarea name='comments' required></textarea>
+          </div>
+
+          <button type='submit'>Submit</button>
+        </form>
     </section>
   )
 }
