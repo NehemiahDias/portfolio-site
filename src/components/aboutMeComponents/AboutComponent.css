@@ -1,0 +1,12 @@
+#about-me {
+    width: 60%;
+    padding: 0 30px 30px 30px;
+    margin: auto;
+}
+#about-me .section-title {
+    margin-bottom: 50px;
+}
+#about-me p {
+    text-align: center;
+    line-height: 2rem;
+}

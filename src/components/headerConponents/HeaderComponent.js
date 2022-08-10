@@ -10,7 +10,7 @@ function HeaderComponent() {
         </div>
         <nav id='navbar'>
           <ul className="sub-text">
-              <li><a href='#projects'><span className='purple'>{">"} </span>Home</a></li>
+              <li><a href='/#'><span className='purple'>{">"} </span>Home</a></li>
               <li><a href='#projects-section'><span className='purple'>{">"} </span>Projects</a></li>
               <li><a href='#about-me'><span className='purple'>{">"} </span>About</a></li>
               <li><a href='#projects'><span className='purple'>{">"} </span>Contact</a></li>
