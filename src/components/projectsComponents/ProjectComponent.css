@@ -3,11 +3,6 @@
     padding-bottom: 100px;
     margin: auto;
 }
-.section-title {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 2.5rem;
-}
 .projects {
     display: flex;
     flex-wrap: wrap;
