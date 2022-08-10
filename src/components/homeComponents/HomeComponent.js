@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { ThemeContext } from '../MainComponent';
+import React from 'react';
 import './HomeComponent.css';
 
 function HomeComonent() {

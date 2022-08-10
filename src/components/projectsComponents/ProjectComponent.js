@@ -6,7 +6,7 @@ import quoteGen from '../images/quote-generator-ss.png';
 import { ThemeContext } from '../MainComponent';
 
 function ProjectComponent() {
-    const {theme, toggleTheme} = useContext(ThemeContext);
+    const {theme} = useContext(ThemeContext);
 
     const projectStyle = {
         common: {
