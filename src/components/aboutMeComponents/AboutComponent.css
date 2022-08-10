@@ -10,3 +10,13 @@
     text-align: center;
     line-height: 2rem;
 }
+.skill-tab {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill-tab i {
+    font-size: 50px;
+}
