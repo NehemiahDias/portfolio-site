@@ -17,6 +17,11 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.skills-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0;
+}
 .skill-tab i {
     font-size: 50px;
 }
