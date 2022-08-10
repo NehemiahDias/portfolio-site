@@ -10,7 +10,7 @@ function ContactComponent() {
             <a href='https://github.com/SWELLZ' rel='noreferrer' target='_blank'><button><i class="fa-brands fa-github"></i> Github</button></a>
             <a href='https://www.linkedin.com/in/nehemiah-dias-2504a61a1/' rel='noreferrer' target='_blank'><button><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a>
         </div>
-        <form name='contact-form' method='post' data-netlify='true' onSubmit='submit'>
+        <form name='contact-form' method='POST' data-netlify='true' onSubmit='submit'>
           <input type='hidden' name='form-name' value='contact-form' />
           <div className='input-field'>
             <p>Name</p>
