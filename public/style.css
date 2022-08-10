@@ -20,3 +20,6 @@ body {
 .deep-grey {
     color: #787586;
 }
+.large-text {
+    font-size: 4.5rem;
+}

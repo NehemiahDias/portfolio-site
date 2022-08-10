@@ -1,10 +1,12 @@
 #projects-section {
     width: 60%;
+    padding-bottom: 100px;
     margin: auto;
 }
 .section-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 50px 0;
+    font-size: 2.5rem;
 }
 .projects {
     display: flex;
@@ -13,7 +15,7 @@
     gap: 10px;
 }
 .project {
-    width: 40%;
+    width: 35%;
     z-index: 1;
     background-color: #272533;
     padding: 20px;
@@ -36,7 +38,7 @@
     transition: 0.3s ease-out;
 }
 .project-intro img:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     opacity: 1;
 }
 .project-buttons {
