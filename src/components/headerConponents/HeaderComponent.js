@@ -13,7 +13,7 @@ function HeaderComponent() {
               <li><a href='/#'><span className='purple'>{">"} </span>Home</a></li>
               <li><a href='#projects-section'><span className='purple'>{">"} </span>Projects</a></li>
               <li><a href='#about-me'><span className='purple'>{">"} </span>About</a></li>
-              <li><a href='#contact-section'><span className='purple'>{">"} </span>Contact</a></li>
+              <li><a href='#projects'><span className='purple'>{">"} </span>Contact</a></li>
               <li><i className="fa-solid fa-sun"></i></li>
           </ul>
         </nav>
