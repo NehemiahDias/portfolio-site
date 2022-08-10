@@ -28,3 +28,9 @@
 #navbar ul li a:hover {
     color: #FF00FF;
 }
+#navbar ul li span {
+    transition: 0.3s ease-in-out;
+}
+#navbar ul li a:hover span {
+    color: #FAF8FF;
+}
