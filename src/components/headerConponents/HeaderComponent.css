@@ -1,0 +1,36 @@
+#header-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+#navbar ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#navbar ul li a {
+    color: #FAF8FF;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+#navbar ul li a:hover {
+    color: #FF00FF;
+}
+#navbar ul li span {
+    transition: 0.3s ease-in-out;
+}
+#navbar ul li a:hover span {
+    color: #FAF8FF;
+}
