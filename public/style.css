@@ -35,3 +35,6 @@ body {
     margin-bottom: 50px;
     font-size: 2.5rem;
 }
+#hidden {
+    display: none;
+}
