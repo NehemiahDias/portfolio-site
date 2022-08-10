@@ -11,31 +11,31 @@ function AboutComponent() {
           <div className='skill-tab'>
             <div className='skill'>
               <i class="fa-brands fa-square-js"></i>
-              <p>JavaScript</p>
+              <p className='sub-text'>JavaScript</p>
             </div>
             <div className='skill'>
               <i class="fa-brands fa-html5"></i>
-              <p>HTML5</p>
+              <p className='sub-text'>HTML5</p>
             </div>
             <div className='skill'>
               <i class="fa-brands fa-css3-alt"></i>
-              <p>CSS6</p>
+              <p className='sub-text'>CSS6</p>
             </div>
             <div className='skill'>
               <i class="fa-brands fa-python"></i>
-              <p>Python</p>
+              <p className='sub-text'>Python</p>
             </div>
             <div className='skill'>
               <i class="fa-brands fa-react"></i>
-              <p>ReactJs</p>
+              <p className='sub-text'>ReactJs</p>
             </div>
             <div className='skill'>
               <i class="fa-brands fa-git-alt"></i>
-              <p>Git</p>
+              <p className='sub-text'>Git</p>
             </div>
             <div className='skill'>
               <i class="fa-brands fa-github"></i>
-              <p>Github</p>
+              <p className='sub-text'>Github</p>
             </div>
           </div>
         </section>
