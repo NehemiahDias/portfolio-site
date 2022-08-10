@@ -3,6 +3,7 @@ import React from 'react'
 import HeaderComponent from './headerConponents/HeaderComponent';
 import HomeComonent from './homeComponents/HomeComponent';
 import ProjectComponent from './projectsComponents/ProjectComponent';
+import AboutComponent from './aboutMeComponents/AboutComponent';
 
 function MainComponent() {
   return (
@@ -10,6 +11,7 @@ function MainComponent() {
       <HeaderComponent />
       <HomeComonent />
       <ProjectComponent />
+      <AboutComponent />
     </>
   )
 }
