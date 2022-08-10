@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+::selection {
+    background: #FF00FF;
+}
 html {
     scroll-padding-top: 70px;
     scroll-behavior: smooth;

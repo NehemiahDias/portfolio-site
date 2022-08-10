@@ -6,9 +6,9 @@ function ContactComponent() {
     <section id='contact-section'>
         <h1 className='section-title'>Contact Me</h1>
         <div className='contact-buttons'>
-            <button><i class="fa-solid fa-envelope"></i> Email</button>
-            <button><i class="fa-brands fa-github"></i> Github</button>
-            <button><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+            <a href='mailto:nehemiahdias@gmail.com' rel='noreferrer' target='_blank'><button><i class="fa-solid fa-envelope"></i> Email</button></a>
+            <a href='https://github.com/SWELLZ' rel='noreferrer' target='_blank'><button><i class="fa-brands fa-github"></i> Github</button></a>
+            <a href='https://www.linkedin.com/in/nehemiah-dias-2504a61a1/' rel='noreferrer' target='_blank'><button><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a>
         </div>
         <form name='contact-form' method='post' data-netlify='true' onSubmit='submit'>
           <input type='hidden' name='form-name' value='contact-form' />
