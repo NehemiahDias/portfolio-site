@@ -27,6 +27,14 @@
     font-size: 1.5rem;
     transition: 0.4s ease;
 }
+.dark .contact-buttons a button {
+    background-color: #121212;
+    color: #FAF8FF;
+}
+.light .contact-buttons a button {
+    background-color: #F2ECFF;
+    color: #121212;
+}
 .contact-buttons button a {
     color: #FAF8FF;
     text-decoration: none;
@@ -72,6 +80,16 @@ form input, form textarea {
     border: 2px solid #050505;
     outline: none;
 }
+.dark form input, .dark form textarea {
+    background-color: #050505;
+    color: #ACA7CB;
+    border: 2px solid #050505;
+}
+.light form input, .light form textarea {
+    background-color: #FAF8FF;
+    color: #121212;
+    border: 2px solid #BCBCBC;
+}
 form input:focus, form textarea:focus {
     border: 2px solid #FF00FF;
 }
@@ -82,11 +100,17 @@ form button {
     padding: 10px 20px;
     font-family: 'Source Code Pro', monospace;
     background-color: transparent;
-    color: #FAF8FF;
-    border-color: #FAF8FF;
     border-radius: 3px;
     margin-top: 20px;
     transition: 0.3s ease;
+}
+.dark form button {
+    color: #FAF8FF;
+    border-color: #FAF8FF;
+}
+.light form button {
+    color: #121212;
+    border-color: #121212;
 }
 form button:hover {
     background-color: rgba(255, 0, 255, 0.2);

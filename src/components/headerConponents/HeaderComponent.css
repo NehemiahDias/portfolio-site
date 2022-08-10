@@ -23,9 +23,14 @@
     list-style-type: none;
 }
 #navbar ul li a {
-    color: #FAF8FF;
     text-decoration: none;
     transition: 0.3s ease-in-out;
+}
+.dark #navbar ul li a {
+    color: #FAF8FF;
+}
+.light #navbar ul li a {
+    color: #121212;
 }
 #navbar ul li a:hover {
     color: #FF00FF;
@@ -33,6 +38,9 @@
 #navbar ul li span {
     transition: 0.3s ease-in-out;
 }
-#navbar ul li a:hover span {
+.dark #navbar ul li a:hover span {
     color: #FAF8FF;
+}
+.light #navbar ul li a:hover span {
+    color: #121212;
 }

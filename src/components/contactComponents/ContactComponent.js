@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../MainComponent';
 import './ContactComponent.css';
 
 function ContactComponent() {
+  const {theme} = useContext(ThemeContext);
+  const contactStyle = {
+    common: {
+      transition: 'all 1s ease'
+    }
+  }
+
+  const themeStyle = {
+    ...contactStyle.common,
+  }
+
   return (
-    <section id='contact-section'>
+    <section id='contact-section' style={themeStyle} className={theme === 'dark' ? 'light' : 'dark'}>
         <h1 className='section-title'>Contact Me</h1>
         <div className='contact-buttons'>
             <a href='mailto:nehemiahdias@gmail.com' rel='noreferrer' target='_blank'><button><i class="fa-solid fa-envelope"></i> Email</button></a>

@@ -20,6 +20,15 @@
     justify-content: space-between;
     border-radius: 5px;
 }
+.light .project {
+    color: #FAF8FF;
+}
+.dark .project {
+    color: #FAF8FF;
+}
+.light .project .off-purple {
+    color: #ACA7CB;
+}
 .cover-color {
     height: 199px;
     width: 100%;
@@ -44,7 +53,7 @@
     justify-content: space-evenly;
 }
 .project-details {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .project-details h3, .project-title {
     text-align: center;

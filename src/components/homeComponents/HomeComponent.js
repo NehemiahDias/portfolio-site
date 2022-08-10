@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../MainComponent';
 import './HomeComponent.css';
 
 function HomeComonent() {
+
   return (
     <section id="welcome-section">
         <div className="welcome-bg">
