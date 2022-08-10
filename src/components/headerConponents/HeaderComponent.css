@@ -12,11 +12,13 @@
 #navbar {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 70%;
 }
 #navbar ul {
     display: flex;
-    width: 70%;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-evenly;
     list-style-type: none;
 }
