@@ -15,7 +15,7 @@ function ContactComponent() {
   }
 
   return (
-    <section id='contact-section' style={themeStyle} className={theme === 'dark' ? 'light' : 'dark'}>
+    <section id='contact-section' style={themeStyle} className={theme === 'dark' ? 'dark' : 'light'}>
         <h1 className='section-title'>Contact Me</h1>
         <div className='contact-buttons'>
             <a href='mailto:nehemiahdias@gmail.com' rel='noreferrer' target='_blank'><button><i class="fa-solid fa-envelope"></i> Email</button></a>

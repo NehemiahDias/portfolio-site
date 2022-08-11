@@ -44,3 +44,76 @@
 .light #navbar ul li a:hover span {
     color: #121212;
 }
+.switch-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dark .switch-button i {
+    color: #FAF8FF;
+}
+.light .switch-button i {
+    color: #121212;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.dark .burger div {
+    background-color: #FAF8FF;
+}
+.light .burger div {
+    background-color: #121212;
+}
+@media screen and (max-width: 640px) {
+    #navbar {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 70px;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+    }
+    .dark #header-nav {
+        background-color: #121212;
+    }
+    .light #header-nav {
+        background-color: #F2ECFF;
+    }
+    .dark #navbar {
+        background-color: #121212;
+    }
+    .light #navbar {
+        background-color: #F2ECFF;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .burger {
+        display: block;
+    }
+}
+.nav-active {
+    transform: translateX(0%) !important;
+}
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

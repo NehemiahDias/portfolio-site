@@ -3,6 +3,11 @@
     padding-bottom: 100px;
     margin: auto;
 }
+@media screen and (max-width: 800px) {
+    #about-me {
+        width: 80%;
+    }
+}
 #about-me .section-title {
     margin-bottom: 50px;
 }

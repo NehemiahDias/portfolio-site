@@ -4,6 +4,11 @@
     width: 60%;
     margin: auto;
 }
+@media screen and (max-width: 800px) {
+    #welcome-section {
+        width: 80%;
+    }
+}
 .welcome-bg {
     height: 100%;
     display: flex;

@@ -13,6 +13,7 @@ export const ThemeContext = React.createContext();
 
 function MainComponent() {
   const [theme, setTheme] = useState('dark');
+  
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
@@ -28,7 +29,7 @@ function MainComponent() {
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
-      <main className={theme === 'light' ? 'dark' : 'light'} style={themeStyle}>
+      <main className={theme === 'dark' ? 'dark' : 'light'} style={themeStyle}>
         <HeaderComponent />
         <HomeComonent />
         <ProjectComponent />

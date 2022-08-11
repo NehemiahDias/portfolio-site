@@ -19,7 +19,7 @@ function ProjectComponent() {
       }
 
     return (
-        <section id="projects-section" style={themeStyle} className={theme === 'dark' ? 'light' : 'dark'}>
+        <section id="projects-section" style={themeStyle} className={theme === 'dark' ? 'dark' : 'light'}>
             <h1 className="section-title">Projects</h1>
             <div className="projects">
                 <div className="project promo-code">
