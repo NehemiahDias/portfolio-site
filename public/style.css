@@ -10,10 +10,22 @@ html {
     scroll-padding-top: 70px;
     scroll-behavior: smooth;
 }
-body {
+.dark body {
     background-color: #121212;
-    font-family: 'Roboto', sans-serif;
     color: #FAF8FF;
+}
+.light body {
+    background-color: #F2ECFF;
+    color: #121212;
+}
+.dark .off-purple {
+    color: #ACA7CB;
+}
+.light .off-purple {
+    color: #3C3C3C;
+}
+body {
+    font-family: 'Roboto', sans-serif;
 }
 .purple {
     color: #FF00FF;

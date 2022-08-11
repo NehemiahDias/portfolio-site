@@ -2,6 +2,7 @@ import React from 'react';
 import './HomeComponent.css';
 
 function HomeComonent() {
+
   return (
     <section id="welcome-section">
         <div className="welcome-bg">

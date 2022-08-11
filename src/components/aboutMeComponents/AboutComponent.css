@@ -3,6 +3,23 @@
     padding-bottom: 100px;
     margin: auto;
 }
+@media screen and (max-width: 800px) {
+    #about-me {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 430px){
+    #about-me p {
+        font-size: 0.7rem;
+        line-height: 1.5rem !important;
+    }
+    .skill-tab i {
+        font-size: 35px !important;
+    }
+    .skill p {
+        font-size: 0.7rem !important;
+    }
+}
 #about-me .section-title {
     margin-bottom: 50px;
 }
