@@ -4,9 +4,17 @@
     width: 60%;
     margin: auto;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 835px) {
     #welcome-section {
         width: 80%;
+    }
+    #welcome-section h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    #welcome-section h1 {
+        font-size: 2rem;
     }
 }
 .welcome-bg {

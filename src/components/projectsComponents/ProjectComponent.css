@@ -3,6 +3,11 @@
     padding-bottom: 100px;
     margin: auto;
 }
+@media screen and (max-width: 800px){
+    #projects-section {
+        width: 80%;
+    }
+}
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +24,17 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 5px;
+}
+@media screen and (max-width: 430px){
+    .project {
+        font-size: 0.6rem;
+    }
+    .cover-color {
+        height: 149px !important;
+    }
+    .project-intro img {
+        height: 150px !important;
+    }
 }
 .light .project {
     color: #FAF8FF;
