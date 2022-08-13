@@ -17,6 +17,7 @@
 }
 ::selection {
     background: #FF00FF;
+    color: white;
 }
 html {
     scroll-padding-top: 70px;
