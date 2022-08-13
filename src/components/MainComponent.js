@@ -12,10 +12,19 @@ import FooterComponent from './footerComponents/FooterComponent';
 export const ThemeContext = React.createContext();
 
 function MainComponent() {
-  const [theme, setTheme] = useState('dark');
+  localStorage.setItem('text', 'test')
+  let localTheme = '';
+  if (localStorage.getItem('darkmode') !== null){
+    localTheme = localStorage.getItem('darkmode');
+  } else {
+    localTheme = 'dark';
+    localStorage.setItem('darkmode', localTheme)
+  }
+  const [theme, setTheme] = useState(localTheme);
   
   const toggleTheme = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark')
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+    localStorage.setItem('darkmode', theme === 'dark' ? 'light' : 'dark');
   }
   const mainStyle = {
     common: {
