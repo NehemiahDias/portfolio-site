@@ -1,6 +1,6 @@
 # Nehemiah Dias' Portfolio 📝
 
-![Portfolio Image](/portfolio-site/public/images/main-image.png)
+![Portfolio Image](/public/images/main-image.png)
 
 Hey there, my name is Nehemiah and this is my portfolio! It is mobile responsive and made with React; The reason being that I wanted to practice with React, and there are also small easter eggs which are made easier with React. I know, React may have still been a bit unnecessary but honestly, I love using React so much that I want to use it in any way I can.
 

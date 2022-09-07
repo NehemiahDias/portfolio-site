@@ -12,18 +12,25 @@
 #navbar {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 70%;
 }
 #navbar ul {
     display: flex;
-    width: 70%;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-evenly;
     list-style-type: none;
 }
 #navbar ul li a {
-    color: #FAF8FF;
     text-decoration: none;
     transition: 0.3s ease-in-out;
+}
+.dark #navbar ul li a {
+    color: #FAF8FF;
+}
+.light #navbar ul li a {
+    color: #121212;
 }
 #navbar ul li a:hover {
     color: #FF00FF;
@@ -31,6 +38,93 @@
 #navbar ul li span {
     transition: 0.3s ease-in-out;
 }
-#navbar ul li a:hover span {
+.dark #navbar ul li a:hover span {
     color: #FAF8FF;
+}
+.light #navbar ul li a:hover span {
+    color: #121212;
+}
+.switch-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dark .switch-button i {
+    color: #FAF8FF;
+}
+.light .switch-button i {
+    color: #121212;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.dark .burger div {
+    background-color: #FAF8FF;
+}
+.light .burger div {
+    background-color: #121212;
+}
+@media screen and (max-width: 640px) {
+    #navbar {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 70px;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+    }
+    .dark #header-nav {
+        background-color: #121212;
+    }
+    .light #header-nav {
+        background-color: #F2ECFF;
+    }
+    .dark #navbar {
+        background-color: #121212;
+    }
+    .light #navbar {
+        background-color: #F2ECFF;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .burger {
+        display: block;
+    }
+}
+.nav-active {
+    transform: translateX(0%) !important;
+}
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
