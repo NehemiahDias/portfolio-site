@@ -5,6 +5,7 @@ import randomOrg from '../images/random-org-ss.png';
 import quoteGen from '../images/quote-generator-ss.png';
 import bgMcguire from '../images/bgmcguire-ss.png';
 import cmluxury from '../images/cmluxury-ss.png';
+import thedeck from '../images/thedeck-ss.png';
 import { ThemeContext } from '../MainComponent';
 
 function ProjectComponent() {
@@ -25,30 +26,30 @@ function ProjectComponent() {
             <h1 className="section-title">Projects</h1>
             <div className="projects">
 
-                <div className="project randomorg">
+            <div className="project thedeck">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={randomOrg} alt="random.org clone demo" />
+                            <img src={thedeck} alt="the deck demo" />
                         </div>
-                        <h2 className="project-title off-purple">Random.org Clone (WIP)</h2>
-                        <p>A clone of the site, random.org. I made this because I use the original site to shuffle my spotify playlist but because the real sites' features are out of the scope, I only added the ones I use most or use the most. I made it a single page app because I wanted it to be fast and I love using React!</p>
+                        <h2 className="project-title off-purple">The Deck - Study help</h2>
+                        <p>A site originally made for my girlfriend to help her study. This was a solo project where I did the design, sourced color palette, and of course, coded alone. This site is supposed to be a version of Quizlet without the annoying sign in popups and more snappy functionality.</p>
                     </div>
                     <div className='project-details'>
                         <h3>Technology Used:</h3>
                         <ul>
                             <li>ReactJs</li>
                             <li>React Router v6</li>
-                            <li>JavaScript</li>
+                            <li>localStorage</li>
                         </ul>
                         <h3>What I learned / Results</h3>
                         <ul>
-                            <li>I can make any site much faster with React</li>
-                            <li>It was way more responsive and produced mass lists much faster</li>
-                            <li>I refined my skills in creating single page applications</li>
+                            <li>The more I work, the more I realize how snappy react is</li>
+                            <li>I learned how to really take advantage of localStorage</li>
+                            <li>The results were great, I loved the design and the flow of the site.</li>
                         </ul>
                         <div className="project-buttons">
-                            <a href="https://github.com/SWELLZ/randomorg-clone" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
-                            <a href="https://randomorg-clone.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/SWELLZ/flashcard" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                            <a href="https://thedeck.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
@@ -76,6 +77,34 @@ function ProjectComponent() {
                         <div className="project-buttons">
                             <a href="https://github.com/SWELLZ/bgmcguire" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
                             <a href="https://bgmcguire.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="project randomorg">
+                    <div className='project-intro'>
+                        <div className='cover-color'>
+                            <img src={randomOrg} alt="random.org clone demo" />
+                        </div>
+                        <h2 className="project-title off-purple">Random.org Clone (WIP)</h2>
+                        <p>A clone of the site, random.org. I made this because I use the original site to shuffle my spotify playlist but because the real sites' features are out of the scope, I only added the ones I use most or use the most. I made it a single page app because I wanted it to be fast and I love using React!</p>
+                    </div>
+                    <div className='project-details'>
+                        <h3>Technology Used:</h3>
+                        <ul>
+                            <li>ReactJs</li>
+                            <li>React Router v6</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <h3>What I learned / Results</h3>
+                        <ul>
+                            <li>I can make any site much faster with React</li>
+                            <li>It was way more responsive and produced mass lists much faster</li>
+                            <li>I refined my skills in creating single page applications</li>
+                        </ul>
+                        <div className="project-buttons">
+                            <a href="https://github.com/SWELLZ/randomorg-clone" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                            <a href="https://randomorg-clone.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
