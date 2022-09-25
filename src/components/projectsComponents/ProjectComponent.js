@@ -141,7 +141,7 @@ function ProjectComponent() {
             </p>
           </div>
           <div className="project-details ">
-            <h3>Technology Used:</h3>
+            <h3>Technology Used</h3>
             <ul>
               <li>ReactJs</li>
               <li>React Router v6</li>
@@ -279,7 +279,7 @@ function ProjectComponent() {
             </p>
           </div>
           <div className="project-details ">
-            <h3>Technology Used:</h3>
+            <h3>Technology Used</h3>
             <ul>
               <li>Python</li>
               <li>GMAIL Libraries and APIs</li>
