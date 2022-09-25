@@ -4,13 +4,14 @@
     margin: auto;
 }
 .projects {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10px;
 }
 .project {
-    max-width: 400px;
+    width: 400px;
     z-index: 1;
     font-size: 0.8rem;
     background-color: #272533;
@@ -37,6 +38,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
+}
+.hidden {
+    display: none !important;
+}
+.expand-btn {
+    background: none;
+    border: none;
+    color: white;
 }
 .thedeck .cover-color {
     background-image: url('../images/thedeck-ss.png');
