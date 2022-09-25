@@ -1,11 +1,5 @@
 import React, { useContext } from 'react';
 import './ProjectComponent.css';
-import promoGen from '../images/promo-gen-ss.png';
-import randomOrg from '../images/random-org-ss.png';
-import quoteGen from '../images/quote-generator-ss.png';
-import bgMcguire from '../images/bgmcguire-ss.png';
-import cmluxury from '../images/cmluxury-ss.png';
-import thedeck from '../images/thedeck-ss.png';
 import { ThemeContext } from '../MainComponent';
 
 function ProjectComponent() {
@@ -29,13 +23,13 @@ function ProjectComponent() {
                 <div className="project thedeck">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={thedeck} alt="the deck demo" />
+                            {/* <img src={thedeck} alt="the deck demo" /> */}
                         </div>
                         <h2 className="project-title off-purple">The Deck - Study help</h2>
                         <p>A site originally made for my girlfriend to help her study. This was a solo project where I did the design, sourced color palette, and of course, coded alone. This site is supposed to be a version of Quizlet without the annoying sign in popups and more snappy functionality.</p>
                     </div>
                     <div className='project-details'>
-                        <h3>Technology Used:</h3>
+                        <h3>Technology Used</h3>
                         <ul>
                             <li>ReactJs</li>
                             <li>React Router v6</li>
@@ -57,7 +51,7 @@ function ProjectComponent() {
                 <div className='project bgmcguire'>
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={bgMcguire} alt='bg mcguire site demo' />
+                            {/* <img src={bgMcguire} alt='bg mcguire site demo' /> */}
                         </div>
                         <h2 className='project-title off-purple'>BG McGuire Contruction</h2>
                         <p>A static web page I was hired to create for BG McGuire Construction Co. He wanted to completely re-create his site because his old one was dated and not mobile responsive. Because of that, there was no need for bells and wistles so I only used HTML and CSS</p>
@@ -84,7 +78,7 @@ function ProjectComponent() {
                 <div className="project randomorg">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={randomOrg} alt="random.org clone demo" />
+                            {/* <img src={randomOrg} alt="random.org clone demo" /> */}
                         </div>
                         <h2 className="project-title off-purple">Random.org Clone (WIP)</h2>
                         <p>A clone of the site, random.org. I made this because I use the original site to shuffle my spotify playlist but because the real sites' features are out of the scope, I only added the ones I use most or use the most. I made it a single page app because I wanted it to be fast and I love using React!</p>
@@ -112,7 +106,7 @@ function ProjectComponent() {
                 <div className="project cmluxury">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={cmluxury} alt='quote generator demo' />
+                            {/* <img src={cmluxury} alt='quote generator demo' /> */}
                         </div>
                         <h2 className="project-title off-purple">CM Luxury Hair</h2>
                         <p>A static single page site I created for my girlfriend's new career of cosmetology. I made it to keep her motivated so as of now, there is no functionality but it is still mobile friendly and styled to her aesthetic.</p>
@@ -138,7 +132,7 @@ function ProjectComponent() {
                 <div className="project quote-generator">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={quoteGen} alt='quote generator demo' />
+                            {/* <img src={quoteGen} alt='quote generator demo' /> */}
                         </div>
                         <h2 className="project-title off-purple">Quote Generator</h2>
                         <p>A simple single page site that produces a new quote along with the author every time you click 'New Quote'. The site also has the functionality to automatically post the quote and author in text format to Twitter or Tumblr by clicking the logo.</p>
@@ -164,7 +158,7 @@ function ProjectComponent() {
                 <div className="project promo-code">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={promoGen} alt="Promo Generator Demo" />
+                            {/* <img src={promoGen} alt="Promo Generator Demo" /> */}
                         </div>
                         <h2 className="project-title off-purple">Promo Code Generator</h2>
                         <p>A command line project with the purpose of generating a Promo Code and emailing it to a customers' email automatically. I made this for a business that I started years ago in order to promote organic growth.</p>

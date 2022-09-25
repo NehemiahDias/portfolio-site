@@ -30,10 +30,31 @@
     color: #ACA7CB;
 }
 .cover-color {
-    height: 199px;
+    height: 200px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 2.5px;
     background: #FF00FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+.thedeck .cover-color {
+    background-image: url('../images/thedeck-ss.png');
+}
+.randomorg .cover-color {
+    background-image: url('../images/random-org-ss.png');
+}
+.bgmcguire .cover-color {
+    background-image: url('../images/bgmcguire-ss.png');
+}
+.cmluxury .cover-color {
+    background-image: url('../images/cmluxury-ss.png');
+}
+.quote-generator .cover-color {
+    background-image: url('../images/quote-generator-ss.png');
+}
+.promo-code .cover-color {
+    background-image: url('../images/promo-gen-ss.png');
 }
 .project-intro img {
     opacity: 0.9;
@@ -74,9 +95,6 @@
 .project-details ul li::marker {
     content: ">";
     color: #FF00FF;
-}
-.project-buttons {
-    margin-top: auto;
 }
 .project-buttons a {
     color: #FAF8FF;
