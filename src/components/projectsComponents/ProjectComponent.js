@@ -15,12 +15,12 @@ function ProjectComponent() {
     ...projectStyle.common,
   };
 
-  const toggleExpand = (name) => {
-    const desc = document.querySelector(`.${name} p`);
-    const projectDet = document.querySelector(`.${name} .project-details`);
-    desc.classList.toggle("");
-    projectDet.classList.toggle("");
-  };
+  // const toggleExpand = (name) => {
+  //   const desc = document.querySelector(`.${name} p`);
+  //   const projectDet = document.querySelector(`.${name} .project-details`);
+  //   desc.classList.toggle("");
+  //   projectDet.classList.toggle("");
+  // };
 
   return (
     <section
@@ -37,7 +37,7 @@ function ProjectComponent() {
             </div>
             <h2 className="project-title off-purple">The Deck - Study help</h2>
             <p className="">
-              A site originally made for my girlfriend to help her study. This
+              A site made for a client to help them study. This
               was a solo project where I did the design, sourced color palette,
               and of course, coded alone. This site is supposed to be a version
               of Quizlet without the annoying sign in popups and more snappy
