@@ -9,24 +9,24 @@ import thedeck from '../images/thedeck-ss.png';
 import { ThemeContext } from '../MainComponent';
 
 function ProjectComponent() {
-    const {theme} = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
 
     const projectStyle = {
         common: {
-          transition: 'all 1s ease'
+            transition: 'all 1s ease'
         }
-      }
-    
-      const themeStyle = {
+    }
+
+    const themeStyle = {
         ...projectStyle.common,
-      }
+    }
 
     return (
         <section id="projects-section" style={themeStyle} className={theme === 'dark' ? 'dark' : 'light'}>
             <h1 className="section-title">Projects</h1>
             <div className="projects">
 
-            <div className="project thedeck">
+                <div className="project thedeck">
                     <div className='project-intro'>
                         <div className='cover-color'>
                             <img src={thedeck} alt="the deck demo" />
@@ -81,7 +81,7 @@ function ProjectComponent() {
                     </div>
                 </div>
 
-                {/* <div className="project randomorg">
+                <div className="project randomorg">
                     <div className='project-intro'>
                         <div className='cover-color'>
                             <img src={randomOrg} alt="random.org clone demo" />
@@ -107,7 +107,7 @@ function ProjectComponent() {
                             <a href="https://randomorg-clone.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 <div className="project cmluxury">
                     <div className='project-intro'>
@@ -164,7 +164,7 @@ function ProjectComponent() {
                 <div className="project promo-code">
                     <div className='project-intro'>
                         <div className='cover-color'>
-                            <img src={promoGen} alt="Promo Generator Demo"/>
+                            <img src={promoGen} alt="Promo Generator Demo" />
                         </div>
                         <h2 className="project-title off-purple">Promo Code Generator</h2>
                         <p>A command line project with the purpose of generating a Promo Code and emailing it to a customers' email automatically. I made this for a business that I started years ago in order to promote organic growth.</p>
@@ -189,7 +189,7 @@ function ProjectComponent() {
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default ProjectComponent

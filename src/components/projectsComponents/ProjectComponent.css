@@ -3,39 +3,24 @@
     padding-bottom: 100px;
     margin: auto;
 }
-@media screen and (max-width: 800px){
-    #projects-section {
-        width: 80%;
-    }
-}
 .projects {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10px;
 }
 .project {
-    max-width: 400px;
+    width: 400px;
     z-index: 1;
     font-size: 0.8rem;
     background-color: #272533;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border-radius: 5px;
 }
-@media screen and (max-width: 430px){
-    .project {
-        font-size: 0.6rem;
-    }
-    .cover-color {
-        height: 149px !important;
-    }
-    .project-intro img {
-        height: 150px !important;
-    }
-}
+
 .light .project {
     color: #FAF8FF;
 }
@@ -46,16 +31,45 @@
     color: #ACA7CB;
 }
 .cover-color {
-    height: 199px;
+    height: 200px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 2.5px;
     background: #FF00FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+.hidden {
+    display: none !important;
+}
+.expand-btn {
+    background: none;
+    border: none;
+    color: white;
+}
+.thedeck .cover-color {
+    background-image: url('../images/thedeck-ss.png');
+}
+.randomorg .cover-color {
+    background-image: url('../images/random-org-ss.png');
+}
+.bgmcguire .cover-color {
+    background-image: url('../images/bgmcguire-ss.png');
+}
+.cmluxury .cover-color {
+    background-image: url('../images/cmluxury-ss.png');
+}
+.quote-generator .cover-color {
+    background-image: url('../images/quote-generator-ss.png');
+}
+.promo-code .cover-color {
+    background-image: url('../images/promo-gen-ss.png');
 }
 .project-intro img {
     opacity: 0.9;
     width: 100%;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 2.5px;
     transition: 0.3s ease-out;
 }
 .project-intro img:hover {
@@ -69,8 +83,13 @@
     justify-content: space-evenly;
 }
 .project-details {
+    height: 100%;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+.project-details
 .project-details h3, .project-title {
     text-align: center;
     margin: 15px 0;
@@ -93,4 +112,20 @@
 }
 .project-buttons a:hover {
     color: #FF00FF;
+}
+@media screen and (max-width: 800px){
+    #projects-section {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 430px){
+    .project {
+        font-size: 0.6rem;
+    }
+    .cover-color {
+        height: 149px !important;
+    }
+    .project-intro img {
+        height: 150px !important;
+    }
 }

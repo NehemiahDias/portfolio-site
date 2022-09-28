@@ -4,6 +4,16 @@
     width: 60%;
     margin: auto;
 }
+.large-text {
+    text-align: left;
+}
+.welcome-bg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 @media screen and (max-width: 835px) {
     #welcome-section {
         width: 80%;
@@ -16,11 +26,4 @@
     #welcome-section h1 {
         font-size: 2rem;
     }
-}
-.welcome-bg {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
 }
