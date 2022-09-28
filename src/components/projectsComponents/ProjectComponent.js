@@ -81,7 +81,7 @@ function ProjectComponent() {
                     </div>
                 </div>
 
-                <div className="project randomorg">
+                {/* <div className="project randomorg">
                     <div className='project-intro'>
                         <div className='cover-color'>
                             <img src={randomOrg} alt="random.org clone demo" />
@@ -107,7 +107,7 @@ function ProjectComponent() {
                             <a href="https://randomorg-clone.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="project cmluxury">
                     <div className='project-intro'>
