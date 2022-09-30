@@ -20,12 +20,42 @@ function ProjectComponent() {
             <h1 className="section-title">Projects</h1>
             <div className="projects">
 
+            <div className='project stay-lucid'>
+                    <div className='project-intro'>
+                        <div className='cover-color'>
+                        </div>
+                        <h2 className='project-title off-purple'>Stay Lucid</h2>
+                        <p>A lucid dream assistant site with a social media aspect named the Dream Forum. The user is given the ability to create dreams and upload them to the dream forum if they choose. The user can also add 'tags' to their dream so they can easily differentiate between each dream. In the Dream Forum, other users can like posts that are accumulated and updated on the posters' profile page. On that profile page, the user can change their username and profile picture.</p>
+                    </div>
+                    <div className='project-details'>
+                        <h3>Technology Used</h3>
+                        <ul>
+                            <li>ReactJS</li>
+                            <li>Firebase Realtime Database</li>
+                            <li>Firebase Authentication</li>
+                            <li>Firebase Storage</li>
+                            <li>React Router</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <h3>What I learned / Results</h3>
+                        <ul>
+                            <li>I learned a lot about Firebase</li>
+                            <li>I learned social media is much easier than it looks</li>
+                            <li>The features are very snappy and the design is clean</li>
+                        </ul>
+                        <div className="project-buttons">
+                            <a href="https://github.com/SWELLZ/lucid-dream" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                            <a href="https://staylucid.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="project thedeck">
                     <div className='project-intro'>
                         <div className='cover-color'>
                         </div>
                         <h2 className="project-title off-purple">The Deck - Study help</h2>
-                        <p>A site originally made for my girlfriend to help her study. This was a solo project where I did the design, sourced color palette, and of course, coded alone. This site is supposed to be a version of Quizlet without the annoying sign in popups and more snappy functionality.</p>
+                        <p>A site made for a client to help them study without the use of Quizlet. This was a solo project where I did the design, sourced color palette, and of course, coded alone. This site is supposed to be a version of Quizlet without the annoying sign in popups and more snappy functionality.</p>
                     </div>
                     <div className='project-details'>
                         <h3>Technology Used</h3>
@@ -33,6 +63,7 @@ function ProjectComponent() {
                             <li>ReactJs</li>
                             <li>React Router v6</li>
                             <li>localStorage</li>
+                            <li>CSS3</li>
                         </ul>
                         <h3>What I learned / Results</h3>
                         <ul>

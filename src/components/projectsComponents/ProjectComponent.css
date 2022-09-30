@@ -65,6 +65,9 @@
 .promo-code .cover-color {
     background-image: url('../images/promo-gen-ss.png');
 }
+.stay-lucid .cover-color {
+    background-image: url('../images/staylucid-ss.png');
+}
 .project-intro img {
     opacity: 0.9;
     width: 100%;
