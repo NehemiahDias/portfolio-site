@@ -55,19 +55,21 @@ function ProjectComponent() {
                         <div className='cover-color'>
                         </div>
                         <h2 className="project-title off-purple">The Deck - Study help</h2>
-                        <p>A site made for a client to help them study without the use of Quizlet. This was a solo project where I did the design, sourced color palette, and of course, coded alone. This site is supposed to be a version of Quizlet without the annoying sign in popups and more snappy functionality.</p>
+                        <p>A site made for a client that uses User Authentication and Realtime Databases to help them study using flashcards. This was a solo project where I did the design, sourced color palette, and coding. This site requires an account to create 'Decks' of flashcards which you can make with an email or you can sign up with Google.</p>
                     </div>
                     <div className='project-details'>
                         <h3>Technology Used</h3>
                         <ul>
                             <li>ReactJs</li>
+                            <li>Firebase Realtime Database</li>
+                            <li>Firebase Authentication</li>
                             <li>React Router v6</li>
                             <li>localStorage</li>
                             <li>CSS3</li>
                         </ul>
                         <h3>What I learned / Results</h3>
                         <ul>
-                            <li>The more I work, the more I realize how snappy react is</li>
+                            <li>I learned how to take advantage of Firebase's services</li>
                             <li>I learned how to really take advantage of localStorage</li>
                             <li>The results were great, I loved the design and the flow of the site.</li>
                         </ul>
