@@ -134,6 +134,34 @@ function ProjectComponent() {
                     </div>
                 </div> */}
 
+                <div className="project shuffle">
+                    <div className='project-intro'>
+                        <div className='cover-color'>
+                        </div>
+                        <h2 className="project-title off-purple">Shuffle For Spotify</h2>
+                        <p>A site that utilizes the Spotify API, React, and Tailwind. It prompts the user to sign in and receive an access token to access the API. When the clicks on one of their playlists, it will display a SHUFFLE, CONFIRM, and CANCEL button along with all the songs in a list view. They can Shuffle until satisfied with the random order and then click Confirm to translate those changes to Spotify using their API, promoting a seamless and quick rearranging of their playlists.</p>
+                    </div>
+                    <div className='project-details'>
+                        <h3>Technology Used</h3>
+                        <ul>
+                            <li>ReactJs</li>
+                            <li>Spotify API</li>
+                            <li>Tailwind CSS</li>
+                            <li>React Router</li>
+                        </ul>
+                        <h3>What I Learned / Results</h3>
+                        <ul>
+                            <li>Allowed me to use different Methods with the Fetch API</li>
+                            <li>I learned how to use the Spotify API which gave me a ton of data</li>
+                            <li>I saw the power and ease of use of Tailwind CSS</li>
+                        </ul>
+                        <div className="project-buttons">
+                            <a href="https://github.com/SWELLZ/spotify-shuffle" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                            <a href="https://shuffleforspotify.netlify.app/" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="project cmluxury">
                     <div className='project-intro'>
                         <div className='cover-color'>
@@ -184,7 +212,7 @@ function ProjectComponent() {
                     </div>
                 </div>
 
-                <div className="project promo-code">
+                {/* <div className="project promo-code">
                     <div className='project-intro'>
                         <div className='cover-color'>
                         </div>
@@ -208,7 +236,7 @@ function ProjectComponent() {
                             <a href="https://youtu.be/AhK9sPZQXcU" target="_blank" rel='noreferrer'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

@@ -48,10 +48,15 @@
     color: white;
 }
 .thedeck .cover-color {
+    background-color: #0F4C5C;
     background-image: url('../images/thedeck-ss.png');
+    background-position: center;
+    background-size: 99%;
 }
-.randomorg .cover-color {
-    background-image: url('../images/random-org-ss.png');
+.shuffle .cover-color {
+    background-color: #111111;
+    background-image: url('../images/shuffle-ss.png');
+    background-size: 110%;
 }
 .bgmcguire .cover-color {
     background-image: url('../images/bgmcguire-ss.png');
@@ -60,10 +65,8 @@
     background-image: url('../images/cmluxury-ss.png');
 }
 .quote-generator .cover-color {
+    background-position: center;
     background-image: url('../images/quote-generator-ss.png');
-}
-.promo-code .cover-color {
-    background-image: url('../images/promo-gen-ss.png');
 }
 .stay-lucid .cover-color {
     background-image: url('../images/staylucid-ss.png');
