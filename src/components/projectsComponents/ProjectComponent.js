@@ -139,7 +139,7 @@ function ProjectComponent() {
                         <div className='cover-color'>
                         </div>
                         <h2 className="project-title off-purple">Shuffle For Spotify</h2>
-                        <p>A site that utilizes the Spotify API, React, and Tailwind. It prompts the user to sign in and receive an access token to access the API. When the clicks on one of their playlists, it will display a SHUFFLE, CONFIRM, and CANCEL button along with all the songs in a list view. They can Shuffle until satisfied with the random order and then click Confirm to translate those changes to Spotify using their API, promoting a seamless and quick rearranging of their playlists.</p>
+                        <p>A site that utilizes the Spotify API, React, and Tailwind. It prompts the user to sign in and receive an access token to access the API. When the user clicks on one of their playlists, it will display a Shuffle, Confirm, and Cancel button along with all the songs in a list view. They can Shuffle until satisfied with the random order and then click Confirm to translate those changes to Spotify using their API, promoting a seamless and quick rearranging of their playlists.</p>
                     </div>
                     <div className='project-details'>
                         <h3>Technology Used</h3>
