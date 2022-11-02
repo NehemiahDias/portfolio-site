@@ -1,14 +1,13 @@
 import React from 'react';
-import './HomeComponent.css';
 
 function HomeComonent() {
 
   return (
-    <section id="welcome-section">
-        <div className="welcome-bg">
-            <p className="purple sub-text">Hi, my name is</p>
-            <h1 className="large-text">Nehemiah Dias</h1>
-            <h1 className="large-text off-purple">Front-End Web Developer</h1>
+    <section className='text-center h-screen w-[60%] m-auto' id="welcome-section">
+        <div className="h-full flex justify-center items-start flex-col">
+            <p className="sub-text text-lightPuple-500">Hi, my name is</p>
+            <h1 className="text-7xl mt-1">Nehemiah Dias</h1>
+            <h1 className="text-7xl text-offP-500 mt-2 ">Front-End Web Developer</h1>
         </div>        
     </section>
   )
