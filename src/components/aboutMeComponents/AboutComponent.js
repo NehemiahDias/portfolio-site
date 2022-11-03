@@ -3,7 +3,7 @@ import "./AboutComponent.css";
 
 function AboutComponent() {
   return (
-    <section id="about-me" className="w-[60%] pb-[100px] m-auto">
+    <section id="about-me" className="w-[60%] pb-[100px] m-auto text-black-500 dark:text-white-500">
       <h1 className="section-title pb-[50px]">About Me</h1>
       <p className="text-center leading-8">
         Hi, I am a self taught Front End Developer. So far, I have created
