@@ -20,8 +20,8 @@ function ContactComponent() {
       style={themeStyle}
       className={
         theme === "dark"
-        ? "dark w-3/5 mb-[100px] m-auto text-black-500 dark:text-white-500"
-        : "light w-3/5 mb-[100px] m-auto text-black-500 dark:text-white-500"
+          ? "dark w-3/5 mb-[100px] m-auto text-black-500 dark:text-white-500"
+          : "light w-3/5 mb-[100px] m-auto text-black-500 dark:text-white-500"
       }
     >
       <h1 className="section-title">Contact Me</h1>
