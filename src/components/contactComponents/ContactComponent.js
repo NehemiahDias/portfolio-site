@@ -4,15 +4,6 @@ import "./ContactComponent.css";
 
 function ContactComponent() {
   const { theme } = useContext(ThemeContext);
-  const contactStyle = {
-    common: {
-      transition: "all 1s ease",
-    },
-  };
-
-  const themeStyle = {
-    ...contactStyle.common,
-  };
 
   return (
     <section
