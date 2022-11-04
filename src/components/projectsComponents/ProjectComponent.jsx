@@ -10,6 +10,7 @@ function ProjectComponent() {
       <div className="md:w-3/5 w-4/5 m-auto">
         <h1 className="section-title font-bold">Projects</h1>
         <div className="w-full flex flex-wrap gap-[10px] justify-evenly">
+          {/* STAY LUCID -- START */}
           <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] stay-lucid">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -28,7 +29,9 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">
+                Technology Used
+              </h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJS
@@ -81,7 +84,9 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
+          {/* STAY LUCID -- END */}
 
+          {/* THE DECK -- START */}
           <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] thedeck">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -98,7 +103,9 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">
+                Technology Used
+              </h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJs
@@ -152,7 +159,9 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
+          {/* THE DECK -- END */}
 
+          {/* BG MCGUIRE -- START */}
           <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] bgmcguire">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -168,7 +177,9 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">
+                Technology Used
+              </h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
@@ -207,7 +218,9 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
+          {/* BG MCGUIRE -- END */}
 
+          {/* SHUFFLE FOR SPOTIFY -- START */}
           <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] shuffle">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -226,7 +239,9 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">
+                Technology Used
+              </h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJs
@@ -276,7 +291,9 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
+          {/* SHUFFLE FOR SPOTIFY -- END */}
 
+          {/* CM LUXURY HAIR -- START */}
           <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] cmluxury">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -291,7 +308,9 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">
+                Technology Used
+              </h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
@@ -328,7 +347,9 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
+          {/* CM LUXURY HAIR -- END */}
 
+          {/* QUOTE GENERATOR -- START */}
           <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] quote-generator">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -343,7 +364,9 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">
+                Technology Used
+              </h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJs
@@ -383,6 +406,7 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
+          {/* QUOTE GENERATOR -- END */}
         </div>
       </div>
     </section>

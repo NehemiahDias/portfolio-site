@@ -44,7 +44,9 @@ function HeaderComponent() {
         id="header-nav"
       >
         <div className="nav-logo">
-          <h1 className="text-3xl font-bold text-black-500 dark:text-white-500">ND</h1>
+          <h1 className="text-3xl font-bold text-black-500 dark:text-white-500">
+            ND
+          </h1>
         </div>
         <nav
           className="flex justify-around w-[70%]"
