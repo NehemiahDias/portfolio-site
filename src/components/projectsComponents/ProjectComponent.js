@@ -17,7 +17,7 @@ function ProjectComponent() {
 
   return (
     <section
-      className="bg-white-500 dark:bg-black-500 text-black-500 dark:text-white-500 w-full pb-[100px] m-auto"
+      className="bg-white-500 dark:bg-black-500 text-black-500 dark:text-white-500 w-full pb-[100px] m-auto transition-all duration-300"
       id='projects'
     >
       <div className="w-[60%] m-auto">

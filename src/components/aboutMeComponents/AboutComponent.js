@@ -5,7 +5,7 @@ function AboutComponent() {
   return (
     <section
       id="about-me"
-      className="w-full pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500"
+      className="w-full pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500 transition-all duration-300"
     >
       <div className="w-[60%] m-auto">
       <h1 className="section-title pb-[50px]">About Me</h1>

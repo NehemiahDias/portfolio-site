@@ -31,7 +31,7 @@ function HeaderComponent() {
   };
 
   return (
-    <header className={theme === "dark" ? "dark" : "light"}>
+    <header className={theme === "dark" ? "dark transition-all duration-300" : "light transition-all duration-300"}>
       <div
         className="flex w-full justify-around items-center h-[70px] backdrop-blur-md z-50 fixed top-0"
         style={themeStyle}

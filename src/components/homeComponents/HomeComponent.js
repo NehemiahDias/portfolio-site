@@ -3,7 +3,7 @@ import React from "react";
 function HomeComonent() {
   return (
     <section
-      className="text-center h-screen w-full m-auto bg-white-500 dark:bg-black-500"
+      className="text-center h-screen w-full m-auto bg-white-500 dark:bg-black-500 transition-all duration-300"
       id="welcome-section"
     >
       <div className="h-full w-3/5 mx-auto flex justify-center items-start flex-col text-left">
