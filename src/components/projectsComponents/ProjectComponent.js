@@ -24,7 +24,7 @@ function ProjectComponent() {
         <div className="w-full flex flex-wrap justify-evenly gap-[10px]">
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 stay-lucid">
             <div className="project-intro">
-              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover bg-center cover-color"></div>
+              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
               <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">Stay Lucid</h2>
               <p>
                 A lucid dream assistant site with a social media aspect named
@@ -74,7 +74,7 @@ function ProjectComponent() {
 
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 thedeck">
             <div className="project-intro">
-              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover bg-center cover-color"></div>
+              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
               <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
                 The Deck - Study help
               </h2>
@@ -127,7 +127,7 @@ function ProjectComponent() {
 
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 bgmcguire">
             <div className="project-intro">
-              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover bg-center cover-color"></div>
+              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
               <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
                 BG McGuire Contruction
               </h2>
@@ -172,7 +172,7 @@ function ProjectComponent() {
 
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 shuffle">
             <div className="project-intro">
-              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover bg-center cover-color"></div>
+              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
               <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">Shuffle For Spotify</h2>
               <p>
                 A site that utilizes the Spotify API, React, and Tailwind. It
@@ -223,7 +223,7 @@ function ProjectComponent() {
 
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 cmluxury">
             <div className="project-intro">
-              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover bg-center cover-color"></div>
+              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
               <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">CM Luxury Hair</h2>
               <p>
                 A static single page site I created for my girlfriend's new
@@ -267,7 +267,7 @@ function ProjectComponent() {
 
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 quote-generator">
             <div className="project-intro">
-              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover bg-center cover-color"></div>
+              <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
               <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">Quote Generator</h2>
               <p>
                 A simple single page site that produces a new quote along with

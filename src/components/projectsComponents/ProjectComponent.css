@@ -1,4 +1,6 @@
-
+.cover-color {
+    background-position-y: center;
+}
 .hidden {
     display: none !important;
 }

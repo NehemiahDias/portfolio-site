@@ -17,13 +17,13 @@ function ContactComponent() {
   return (
     <section
       id="contact-section"
-      style={themeStyle}
       className={
         theme === "dark"
-          ? "dark w-3/5 mb-[100px] m-auto text-black-500 dark:text-white-500"
-          : "light w-3/5 mb-[100px] m-auto text-black-500 dark:text-white-500"
+          ? "dark pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500 w-full"
+          : "light w-full pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500"
       }
     >
+      <div className="w-[60%] m-auto">
       <h1 className="section-title">Contact Me</h1>
       <div className="contact-buttons flex justify-center gap-[10px] flex-wrap">
         <a
@@ -120,6 +120,7 @@ function ContactComponent() {
           Submit
         </button>
       </form>
+      </div>
     </section>
   );
 }

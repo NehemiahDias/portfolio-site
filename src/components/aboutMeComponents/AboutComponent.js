@@ -5,8 +5,9 @@ function AboutComponent() {
   return (
     <section
       id="about-me"
-      className="w-[60%] pb-[100px] m-auto text-black-500 dark:text-white-500"
+      className="w-full pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500"
     >
+      <div className="w-[60%] m-auto">
       <h1 className="section-title pb-[50px]">About Me</h1>
       <p className="text-center leading-8">
         Hi, I am a self taught Front End Developer. So far, I have created
@@ -54,6 +55,7 @@ function AboutComponent() {
           </div>
         </div>
       </section>
+      </div>
     </section>
   );
 }
