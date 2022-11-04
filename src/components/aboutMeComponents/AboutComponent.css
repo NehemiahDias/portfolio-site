@@ -1,9 +1,4 @@
 
-@media screen and (max-width: 800px) {
-    #about-me {
-        width: 80%;
-    }
-}
 @media screen and (max-width: 430px){
     #about-me p {
         font-size: 0.7rem;

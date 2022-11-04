@@ -7,13 +7,13 @@ function ProjectComponent() {
       className="bg-white-500 dark:bg-black-500 text-black-500 dark:text-white-500 w-full pb-[100px] m-auto transition-all duration-300"
       id="projects"
     >
-      <div className="w-[60%] m-auto">
+      <div className="md:w-3/5 w-4/5 m-auto">
         <h1 className="section-title font-bold">Projects</h1>
         <div className="w-full flex flex-wrap gap-[10px] justify-evenly">
-          <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 stay-lucid">
+          <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] stay-lucid">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+              <h2 className="text-offP-500 my-[15px] text-center text-lg sm:text-xl font-bold">
                 Stay Lucid
               </h2>
               <p>
@@ -28,7 +28,7 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJS
@@ -47,7 +47,7 @@ function ProjectComponent() {
                 </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
-              <h3 className="text-center text-lg font-bold">
+              <h3 className="text-center text-base sm:text-lg font-bold">
                 What I learned / Results
               </h3>
               <ul className="my-5">
@@ -82,10 +82,10 @@ function ProjectComponent() {
             </div>
           </div>
 
-          <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 thedeck">
+          <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] thedeck">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+              <h2 className="text-offP-500 my-[15px] text-center text-lg sm:text-xl font-bold">
                 The Deck - Study help
               </h2>
               <p>
@@ -98,7 +98,7 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJs
@@ -117,7 +117,7 @@ function ProjectComponent() {
                 </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
-              <h3 className="text-center text-lg font-bold">
+              <h3 className="text-center text-base sm:text-lg font-bold">
                 What I learned / Results
               </h3>
               <ul className="my-5">
@@ -153,10 +153,10 @@ function ProjectComponent() {
             </div>
           </div>
 
-          <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 bgmcguire">
+          <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] bgmcguire">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+              <h2 className="text-offP-500 my-[15px] text-center text-lg sm:text-xl font-bold">
                 BG McGuire Contruction
               </h2>
               <p>
@@ -168,7 +168,7 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
@@ -176,7 +176,7 @@ function ProjectComponent() {
                   JavaScript
                 </li>
               </ul>
-              <h3 className="text-center text-lg font-bold">
+              <h3 className="text-center text-base sm:text-lg font-bold">
                 What I learned / Results
               </h3>
               <ul className="my-5">
@@ -208,10 +208,10 @@ function ProjectComponent() {
             </div>
           </div>
 
-          <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 shuffle">
+          <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] shuffle">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+              <h2 className="text-offP-500 my-[15px] text-center text-lg sm:text-xl font-bold">
                 Shuffle For Spotify
               </h2>
               <p>
@@ -226,7 +226,7 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJs
@@ -241,7 +241,7 @@ function ProjectComponent() {
                   React Router
                 </li>
               </ul>
-              <h3 className="text-center text-lg font-bold">
+              <h3 className="text-center text-base sm:text-lg font-bold">
                 What I Learned / Results
               </h3>
               <ul className="my-5">
@@ -277,10 +277,10 @@ function ProjectComponent() {
             </div>
           </div>
 
-          <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 cmluxury">
+          <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] cmluxury">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+              <h2 className="text-offP-500 my-[15px] text-center text-lg sm:text-xl font-bold">
                 CM Luxury Hair
               </h2>
               <p>
@@ -291,12 +291,12 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
-              <h3 className="text-center text-lg font-bold">
+              <h3 className="text-center text-base sm:text-lg font-bold">
                 What I Learned / Results
               </h3>
               <ul className="my-5">
@@ -329,10 +329,10 @@ function ProjectComponent() {
             </div>
           </div>
 
-          <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 quote-generator">
+          <div className="w-[400px] z-10 sm:text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 text-[0.6rem] quote-generator">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+              <h2 className="text-offP-500 my-[15px] text-center text-lg sm:text-xl font-bold">
                 Quote Generator
               </h2>
               <p>
@@ -343,7 +343,7 @@ function ProjectComponent() {
               </p>
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
-              <h3 className="text-center text-lg font-bold">Technology Used</h3>
+              <h3 className="text-center text-base sm:text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   ReactJs
@@ -352,7 +352,7 @@ function ProjectComponent() {
                   Quotable API
                 </li>
               </ul>
-              <h3 className="text-center text-lg font-bold">
+              <h3 className="text-center text-base sm:text-lg font-bold">
                 What I Learned / Results
               </h3>
               <ul className="my-5">

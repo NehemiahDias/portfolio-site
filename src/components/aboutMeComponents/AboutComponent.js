@@ -7,7 +7,7 @@ function AboutComponent() {
       id="about-me"
       className="w-full pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500 transition-all duration-300"
     >
-      <div className="w-[60%] m-auto">
+      <div className="w-4/5 md:w-3/5 m-auto">
         <h1 className="section-title font-bold">About Me</h1>
         <p className="text-center leading-8">
           Hi, I am a self taught Front End Developer. So far, I have created

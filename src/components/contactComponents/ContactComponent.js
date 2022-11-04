@@ -14,7 +14,7 @@ function ContactComponent() {
           : "light w-full pb-[100px] m-auto text-black-500 dark:text-white-500 bg-white-500 dark:bg-black-500 transition-all duration-300"
       }
     >
-      <div className="w-[60%] m-auto">
+      <div className="md:w-3/5 w-4/5 m-auto">
         <h1 className="section-title font-bold">Contact Me</h1>
         <div className="contact-buttons flex justify-center gap-[10px] flex-wrap">
           <a
