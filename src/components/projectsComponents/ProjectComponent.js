@@ -1,32 +1,21 @@
 import React, { useContext } from "react";
 import "./ProjectComponent.css";
-import { ThemeContext } from "../MainComponent";
 
 function ProjectComponent() {
-  const { theme } = useContext(ThemeContext);
-
-  const projectStyle = {
-    common: {
-      transition: "all 1s ease",
-    },
-  };
-
-  const themeStyle = {
-    ...projectStyle.common,
-  };
-
   return (
     <section
       className="bg-white-500 dark:bg-black-500 text-black-500 dark:text-white-500 w-full pb-[100px] m-auto transition-all duration-300"
-      id='projects'
+      id="projects"
     >
       <div className="w-[60%] m-auto">
-        <h1 className="section-title">Projects</h1>
+        <h1 className="section-title font-bold">Projects</h1>
         <div className="w-full flex flex-wrap justify-evenly gap-[10px]">
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 stay-lucid">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">Stay Lucid</h2>
+              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+                Stay Lucid
+              </h2>
               <p>
                 A lucid dream assistant site with a social media aspect named
                 the Dream Forum. The user is given the ability to create dreams
@@ -40,21 +29,39 @@ function ProjectComponent() {
             </div>
             <div className="my-[15px]">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJS</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Realtime Database</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Authentication</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Storage</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">React Router</li>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  ReactJS
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Firebase Realtime Database
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Firebase Authentication
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Firebase Storage
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  React Router
+                </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
-              <h3 className="text-center text-lg font-bold">What I learned / Results</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned a lot about Firebase</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned social media is much easier than it looks</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">The features are very snappy and the design is clean</li>
+              <h3 className="text-center text-lg font-bold">
+                What I learned / Results
+              </h3>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  I learned a lot about Firebase
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  I learned social media is much easier than it looks
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  The features are very snappy and the design is clean
+                </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly">
+              <div className="w-full p-[10px] flex justify-evenly mt-auto">
                 <a
                   href="https://github.com/SWELLZ/lucid-dream"
                   target="_blank"
@@ -92,24 +99,40 @@ function ProjectComponent() {
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJs</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Realtime Database</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Authentication</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">React Router v6</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">localStorage</li>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  ReactJs
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Firebase Realtime Database
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Firebase Authentication
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  React Router v6
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  localStorage
+                </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
-              <h3 className="text-center text-lg font-bold">What I learned / Results</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned how to take advantage of Firebase's services</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned how to really take advantage of localStorage</li>
+              <h3 className="text-center text-lg font-bold">
+                What I learned / Results
+              </h3>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  I learned how to take advantage of Firebase's services
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  I learned how to really take advantage of localStorage
+                </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   The results were great, I loved the design and the flow of the
                   site.
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly">
+              <div className="w-full p-[10px] flex justify-evenly mt-auto">
                 <a
                   href="https://github.com/SWELLZ/flashcard"
                   target="_blank"
@@ -146,17 +169,25 @@ function ProjectComponent() {
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
-              <ul>
+              <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">JavaScript</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  JavaScript
+                </li>
               </ul>
-              <h3 className="text-center text-lg font-bold">What I learned / Results</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">My skills can be applied and be useful for others</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Sometimes it's best to not overcomplicate every project</li>
+              <h3 className="text-center text-lg font-bold">
+                What I learned / Results
+              </h3>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  My skills can be applied and be useful for others
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Sometimes it's best to not overcomplicate every project
+                </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly">
+              <div className="w-full p-[10px] flex justify-evenly mt-auto">
                 <a
                   href="https://github.com/SWELLZ/bgmcguire"
                   target="_blank"
@@ -180,7 +211,9 @@ function ProjectComponent() {
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 shuffle">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">Shuffle For Spotify</h2>
+              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+                Shuffle For Spotify
+              </h2>
               <p>
                 A site that utilizes the Spotify API, React, and Tailwind. It
                 prompts the user to sign in and receive an access token to
@@ -194,22 +227,36 @@ function ProjectComponent() {
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJs</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Spotify API</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Tailwind CSS</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">React Router</li>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  ReactJs
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Spotify API
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Tailwind CSS
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  React Router
+                </li>
               </ul>
-              <h3 className="text-center text-lg font-bold">What I Learned / Results</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Allowed me to use different Methods with the Fetch API</li>
+              <h3 className="text-center text-lg font-bold">
+                What I Learned / Results
+              </h3>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Allowed me to use different Methods with the Fetch API
+                </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   I learned how to use the Spotify API which gave me a ton of
                   data
                 </li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I saw the power and ease of use of Tailwind CSS</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  I saw the power and ease of use of Tailwind CSS
+                </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly">
+              <div className="w-full p-[10px] flex justify-evenly mt-auto">
                 <a
                   href="https://github.com/SWELLZ/spotify-shuffle"
                   target="_blank"
@@ -233,7 +280,9 @@ function ProjectComponent() {
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 cmluxury">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">CM Luxury Hair</h2>
+              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+                CM Luxury Hair
+              </h2>
               <p>
                 A static single page site I created for my girlfriend's new
                 career of cosmetology. I made it to keep her motivated so as of
@@ -243,19 +292,23 @@ function ProjectComponent() {
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
-              <ul>
+              <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
-              <h3 className="text-center text-lg font-bold">What I Learned / Results</h3>
-              <ul>
+              <h3 className="text-center text-lg font-bold">
+                What I Learned / Results
+              </h3>
+              <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   It was one of my first sites so it taught me a lot about
                   design
                 </li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">She got excited and more motivated</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  She got excited and more motivated
+                </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly">
+              <div className="w-full p-[10px] flex justify-evenly mt-auto">
                 <a
                   href="https://github.com/SWELLZ/CM-Luxury"
                   target="_blank"
@@ -279,7 +332,9 @@ function ProjectComponent() {
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 quote-generator">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
-              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">Quote Generator</h2>
+              <h2 className="text-offP-500 my-[15px] text-center text-xl font-bold">
+                Quote Generator
+              </h2>
               <p>
                 A simple single page site that produces a new quote along with
                 the author every time you click 'New Quote'. The site also has
@@ -289,18 +344,26 @@ function ProjectComponent() {
             </div>
             <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJs</li>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Quotable API</li>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  ReactJs
+                </li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Quotable API
+                </li>
               </ul>
-              <h3 className="text-center text-lg font-bold">What I Learned / Results</h3>
-              <ul>
-                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Made me more comfortable with the use of APIs</li>
+              <h3 className="text-center text-lg font-bold">
+                What I Learned / Results
+              </h3>
+              <ul className="my-5">
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
+                  Made me more comfortable with the use of APIs
+                </li>
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   The use of Twitter / Tumblr to automatically format post
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly">
+              <div className="w-full p-[10px] flex justify-evenly mt-auto">
                 <a
                   href="https://github.com/SWELLZ/quote-generator"
                   target="_blank"
@@ -320,8 +383,6 @@ function ProjectComponent() {
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
