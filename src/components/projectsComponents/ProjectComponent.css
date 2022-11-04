@@ -28,7 +28,7 @@
 .stay-lucid .cover-color {
     background-image: url('../images/staylucid-ss.png');
 }
-ul li::marker {
+#projects ul li::marker {
     content: ">";
     color: #FF00FF;
 }

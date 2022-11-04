@@ -86,7 +86,7 @@ function ContactComponent() {
         <div className="block">
           <p className="mb-[5px] text-xl">Name</p>
           <input
-            className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-white-500 text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
+            className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 bg-[#faf8ff] dark:border-textFieldBg-500 text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
             style={themeStyle}
             type="text"
             name="name"
@@ -96,7 +96,7 @@ function ContactComponent() {
         <div className="block">
           <p className="mb-[5px] text-xl">Email</p>
           <input
-            className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-white-500 text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
+            className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-[#faf8ff] text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
             style={themeStyle}
             type="email"
             name="email"
@@ -106,7 +106,7 @@ function ContactComponent() {
         <div className="block">
           <p className="mb-[5px] text-xl">Any Comments?</p>
           <textarea
-            className="rounded-sm p-1 h-[70px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-white-500 text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
+            className="rounded-sm p-1 h-[70px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-[#faf8ff] text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
             style={themeStyle}
             name="comments"
             required
