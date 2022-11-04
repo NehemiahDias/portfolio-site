@@ -4,11 +4,6 @@
 .hidden {
     display: none !important;
 }
-.expand-btn {
-    background: none;
-    border: none;
-    color: white;
-}
 .thedeck .cover-color {
     background-color: #0F4C5C;
     background-image: url('../images/thedeck-ss.png');
@@ -33,47 +28,8 @@
 .stay-lucid .cover-color {
     background-image: url('../images/staylucid-ss.png');
 }
-.project-intro img {
-    opacity: 0.9;
-    width: 100%;
-    height: 200px;
-    border-radius: 2.5px;
-    transition: 0.3s ease-out;
-}
-.project-intro img:hover {
-    transform: scale(1.03);
-    opacity: 1;
-}
-.project-buttons {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.project-details {
-    height: 100%;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.project-details ul {
-    margin: 20px 0;
-}
-.project-details ul li {
-    padding: 5px 5px 5px 10px;
-    display: list-item;
-}
-.project-details ul li::marker {
+ul li::marker {
     content: ">";
-    color: #FF00FF;
-}
-.project-buttons a {
-    color: #FAF8FF;
-    font-size: 30px;
-    transition: 0.2s ease-in-out;
-}
-.project-buttons a:hover {
     color: #FF00FF;
 }
 @media screen and (max-width: 800px){

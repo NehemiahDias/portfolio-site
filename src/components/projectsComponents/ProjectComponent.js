@@ -40,23 +40,24 @@ function ProjectComponent() {
             <div className="my-[15px]">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul>
-                <li>ReactJS</li>
-                <li>Firebase Realtime Database</li>
-                <li>Firebase Authentication</li>
-                <li>Firebase Storage</li>
-                <li>React Router</li>
-                <li>CSS3</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJS</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Realtime Database</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Authentication</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Storage</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">React Router</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
               <h3 className="text-center text-lg font-bold">What I learned / Results</h3>
               <ul>
-                <li>I learned a lot about Firebase</li>
-                <li>I learned social media is much easier than it looks</li>
-                <li>The features are very snappy and the design is clean</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned a lot about Firebase</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned social media is much easier than it looks</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">The features are very snappy and the design is clean</li>
               </ul>
-              <div className="project-buttons">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/lucid-dream"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-brands fa-github"></i>
@@ -64,6 +65,7 @@ function ProjectComponent() {
                 <a
                   href="https://staylucid.netlify.app/"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -87,29 +89,30 @@ function ProjectComponent() {
                 with Google.
               </p>
             </div>
-            <div className="project-details">
+            <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul>
-                <li>ReactJs</li>
-                <li>Firebase Realtime Database</li>
-                <li>Firebase Authentication</li>
-                <li>React Router v6</li>
-                <li>localStorage</li>
-                <li>CSS3</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJs</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Realtime Database</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Firebase Authentication</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">React Router v6</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">localStorage</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
               <h3 className="text-center text-lg font-bold">What I learned / Results</h3>
               <ul>
-                <li>I learned how to take advantage of Firebase's services</li>
-                <li>I learned how to really take advantage of localStorage</li>
-                <li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned how to take advantage of Firebase's services</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I learned how to really take advantage of localStorage</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   The results were great, I loved the design and the flow of the
                   site.
                 </li>
               </ul>
-              <div className="project-buttons">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/flashcard"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-brands fa-github"></i>
@@ -117,6 +120,7 @@ function ProjectComponent() {
                 <a
                   href="https://thedeck.netlify.app/"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -139,22 +143,23 @@ function ProjectComponent() {
                 HTML and CSS
               </p>
             </div>
-            <div className="project-details">
+            <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">JavaScript</li>
               </ul>
               <h3 className="text-center text-lg font-bold">What I learned / Results</h3>
               <ul>
-                <li>My skills can be applied and be useful for others</li>
-                <li>Sometimes it's best to not overcomplicate every project</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">My skills can be applied and be useful for others</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Sometimes it's best to not overcomplicate every project</li>
               </ul>
-              <div className="project-buttons">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/bgmcguire"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-brands fa-github"></i>
@@ -162,6 +167,7 @@ function ProjectComponent() {
                 <a
                   href="https://bgmcguire.netlify.app/"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -185,27 +191,28 @@ function ProjectComponent() {
                 quick rearranging of their playlists.
               </p>
             </div>
-            <div className="project-details">
+            <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul>
-                <li>ReactJs</li>
-                <li>Spotify API</li>
-                <li>Tailwind CSS</li>
-                <li>React Router</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJs</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Spotify API</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Tailwind CSS</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">React Router</li>
               </ul>
               <h3 className="text-center text-lg font-bold">What I Learned / Results</h3>
               <ul>
-                <li>Allowed me to use different Methods with the Fetch API</li>
-                <li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Allowed me to use different Methods with the Fetch API</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   I learned how to use the Spotify API which gave me a ton of
                   data
                 </li>
-                <li>I saw the power and ease of use of Tailwind CSS</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">I saw the power and ease of use of Tailwind CSS</li>
               </ul>
-              <div className="project-buttons">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/spotify-shuffle"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-brands fa-github"></i>
@@ -213,6 +220,7 @@ function ProjectComponent() {
                 <a
                   href="https://shuffleforspotify.netlify.app/"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -232,24 +240,25 @@ function ProjectComponent() {
                 and styled to her aesthetic.
               </p>
             </div>
-            <div className="project-details">
+            <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">HTML5</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">CSS3</li>
               </ul>
               <h3 className="text-center text-lg font-bold">What I Learned / Results</h3>
               <ul>
-                <li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   It was one of my first sites so it taught me a lot about
                   design
                 </li>
-                <li>She got excited and more motivated</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">She got excited and more motivated</li>
               </ul>
-              <div className="project-buttons">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/CM-Luxury"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-brands fa-github"></i>
@@ -257,6 +266,7 @@ function ProjectComponent() {
                 <a
                   href="https://cmluxury.netlify.app/"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -276,23 +286,24 @@ function ProjectComponent() {
                 text format to Twitter or Tumblr by clicking the logo.
               </p>
             </div>
-            <div className="project-details">
+            <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul>
-                <li>ReactJs</li>
-                <li>Quotable API</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">ReactJs</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Quotable API</li>
               </ul>
               <h3 className="text-center text-lg font-bold">What I Learned / Results</h3>
               <ul>
-                <li>Made me more comfortable with the use of APIs</li>
-                <li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">Made me more comfortable with the use of APIs</li>
+                <li className="py-[5px] pl-[10px] pr-[5px] list-item">
                   The use of Twitter / Tumblr to automatically format post
                 </li>
               </ul>
-              <div className="project-buttons">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/quote-generator"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-brands fa-github"></i>
@@ -300,6 +311,7 @@ function ProjectComponent() {
                 <a
                   href="https://quote-generator-nd.netlify.app/"
                   target="_blank"
+                  className="text-white-500 text-[30px] transition-all hover:text-lightPurple-500"
                   rel="noreferrer"
                 >
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
