@@ -23,7 +23,7 @@ function ContactComponent() {
             rel="noreferrer"
             target="_blank"
           >
-            <button className="w-3/5 h-[50px] hover:bg-[#FAF8FF] hover:text-black-500 hover:cursor-pointer dark:bg-black-500 bg-white-500 text-black-500 dark:text-white-500 rounded-sm border-2 border-[#ACA7CB] m-auto relative text-2xl">
+            <button className="w-3/5 h-[50px] hover:bg-[#FAF8FF] hover:text-black-500 dark:hover:bg-[#FAF8FF] dark:hover:text-black-500 transition-all duration-300 hover:cursor-pointer dark:bg-black-500 bg-white-500 text-black-500 dark:text-white-500 rounded-sm border-2 border-[#ACA7CB] m-auto relative text-2xl">
               <i className="fa-solid fa-envelope absolute left-[10px] top-0 bottom-0 my-auto h-fit mx-0"></i>{" "}
               Email
             </button>
@@ -34,7 +34,7 @@ function ContactComponent() {
             rel="noreferrer"
             target="_blank"
           >
-            <button className="w-3/5 h-[50px] hover:bg-[#FAF8FF] hover:text-black-500 hover:cursor-pointer dark:bg-black-500 bg-white-500 text-black-500 dark:text-white-500 rounded border-2 border-[#ACA7CB] m-auto relative text-2xl">
+            <button className="w-3/5 h-[50px] hover:bg-[#FAF8FF] hover:text-black-500 hover:cursor-pointer dark:hover:bg-[#FAF8FF] dark:hover:text-black-500 transition-all duration-300 dark:bg-black-500 bg-white-500 text-black-500 dark:text-white-500 rounded border-2 border-[#ACA7CB] m-auto relative text-2xl">
               <i className="fa-brands fa-github absolute left-[10px] top-0 bottom-0 my-auto h-fit mx-0"></i>{" "}
               Github
             </button>
@@ -45,7 +45,7 @@ function ContactComponent() {
             rel="noreferrer"
             target="_blank"
           >
-            <button className="w-3/5 h-[50px] hover:bg-[#FAF8FF] hover:text-black-500 hover:cursor-pointer dark:bg-black-500 bg-white-500 text-black-500 dark:text-white-500 rounded-sm border-2 border-[#ACA7CB] m-auto relative text-2xl">
+            <button className="w-3/5 h-[50px] hover:bg-[#FAF8FF] hover:text-black-500 hover:cursor-pointer dark:hover:bg-[#FAF8FF] dark:hover:text-black-500 transition-all duration-300 dark:bg-black-500 bg-white-500 text-black-500 dark:text-white-500 rounded-sm border-2 border-[#ACA7CB] m-auto relative text-2xl">
               <i className="fa-brands fa-linkedin absolute left-[10px] top-0 bottom-0 my-auto h-fit mx-0"></i>{" "}
               LinkedIn
             </button>
@@ -63,7 +63,7 @@ function ContactComponent() {
           <div className="block">
             <p className="mb-[5px] text-xl">Name</p>
             <input
-              className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 bg-[#faf8ff] dark:border-textFieldBg-500 text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
+              className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 bg-[#faf8ff] dark:border-textFieldBg-500 text-black-500 border-[#BCBCBC] dark:focus:border-lightPurple-500 transition-all focus:border-lightPurple-500 duration-300 outline-none"
               type="text"
               name="name"
               required
@@ -72,7 +72,7 @@ function ContactComponent() {
           <div className="block">
             <p className="mb-[5px] text-xl">Email</p>
             <input
-              className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-[#faf8ff] text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
+              className="mb-[20px] rounded-sm p-1 h-[40px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 transition-all bg-[#faf8ff] text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 dark:focus:border-lightPurple-500 duration-300 outline-none"
               type="email"
               name="email"
               required
@@ -81,7 +81,7 @@ function ContactComponent() {
           <div className="block">
             <p className="mb-[5px] text-xl">Any Comments?</p>
             <textarea
-              className="rounded-sm p-1 h-[70px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 bg-[#faf8ff] text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 outline-none"
+              className="rounded-sm p-1 h-[70px] w-full dark:bg-textFieldBg-500 dark:text-offP-500 text-xl border-2 dark:border-textFieldBg-500 dark:focus:border-lightPurple-500 transition-colors bg-[#faf8ff] text-black-500 border-[#BCBCBC] focus:border-lightPurple-500 duration-300 outline-none"
               name="comments"
               required
             ></textarea>

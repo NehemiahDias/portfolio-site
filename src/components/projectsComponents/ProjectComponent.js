@@ -27,7 +27,7 @@ function ProjectComponent() {
                 and profile picture.
               </p>
             </div>
-            <div className="my-[15px]">
+            <div className="h-full mt-[10px] flex flex-col justify-evenly">
               <h3 className="text-center text-lg font-bold">Technology Used</h3>
               <ul className="my-5">
                 <li className="py-[5px] pl-[10px] pr-[5px] list-item">
