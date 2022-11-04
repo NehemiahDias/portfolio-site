@@ -1,51 +1,8 @@
-#projects-section {
-    width: 60%;
-    padding-bottom: 100px;
-    margin: auto;
-}
-.projects {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
-}
-.project {
-    width: 400px;
-    z-index: 1;
-    font-size: 0.8rem;
-    background-color: #272533;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-}
-
-.light .project {
-    color: #FAF8FF;
-}
-.dark .project {
-    color: #FAF8FF;
-}
-.light .project .off-purple {
-    color: #ACA7CB;
-}
 .cover-color {
-    height: 200px;
-    width: 100%;
-    border-radius: 2.5px;
-    background: #FF00FF;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position-y: center;
 }
 .hidden {
     display: none !important;
-}
-.expand-btn {
-    background: none;
-    border: none;
-    color: white;
 }
 .thedeck .cover-color {
     background-color: #0F4C5C;
@@ -71,52 +28,8 @@
 .stay-lucid .cover-color {
     background-image: url('../images/staylucid-ss.png');
 }
-.project-intro img {
-    opacity: 0.9;
-    width: 100%;
-    height: 200px;
-    border-radius: 2.5px;
-    transition: 0.3s ease-out;
-}
-.project-intro img:hover {
-    transform: scale(1.03);
-    opacity: 1;
-}
-.project-buttons {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.project-details {
-    height: 100%;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.project-details
-.project-details h3, .project-title {
-    text-align: center;
-    margin: 15px 0;
-}
-.project-details ul {
-    margin: 20px 0;
-}
-.project-details ul li {
-    padding: 5px 5px 5px 10px;
-    display: list-item;
-}
-.project-details ul li::marker {
+#projects ul li::marker {
     content: ">";
-    color: #FF00FF;
-}
-.project-buttons a {
-    color: #FAF8FF;
-    font-size: 30px;
-    transition: 0.2s ease-in-out;
-}
-.project-buttons a:hover {
     color: #FF00FF;
 }
 @media screen and (max-width: 800px){
