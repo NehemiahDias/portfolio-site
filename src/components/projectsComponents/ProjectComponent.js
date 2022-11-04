@@ -9,7 +9,7 @@ function ProjectComponent() {
     >
       <div className="w-[60%] m-auto">
         <h1 className="section-title font-bold">Projects</h1>
-        <div className="w-full flex flex-wrap justify-evenly gap-[10px]">
+        <div className="w-full flex flex-wrap gap-[10px] justify-evenly">
           <div className="w-[400px] z-10 text-xs bg-[#272533] p-5 flex flex-col rounded-md text-white-500 stay-lucid">
             <div className="project-intro">
               <div className="h-[200px] w-full rounded-sm bg-lightPurple-500 bg-no-repeat bg-cover cover-color"></div>
@@ -61,7 +61,7 @@ function ProjectComponent() {
                   The features are very snappy and the design is clean
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly mt-auto">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/lucid-dream"
                   target="_blank"
@@ -132,7 +132,7 @@ function ProjectComponent() {
                   site.
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly mt-auto">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/flashcard"
                   target="_blank"
@@ -187,7 +187,7 @@ function ProjectComponent() {
                   Sometimes it's best to not overcomplicate every project
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly mt-auto">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/bgmcguire"
                   target="_blank"
@@ -256,7 +256,7 @@ function ProjectComponent() {
                   I saw the power and ease of use of Tailwind CSS
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly mt-auto">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/spotify-shuffle"
                   target="_blank"
@@ -308,7 +308,7 @@ function ProjectComponent() {
                   She got excited and more motivated
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly mt-auto">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/CM-Luxury"
                   target="_blank"
@@ -363,7 +363,7 @@ function ProjectComponent() {
                   The use of Twitter / Tumblr to automatically format post
                 </li>
               </ul>
-              <div className="w-full p-[10px] flex justify-evenly mt-auto">
+              <div className="w-full p-[10px] flex justify-evenly">
                 <a
                   href="https://github.com/SWELLZ/quote-generator"
                   target="_blank"
