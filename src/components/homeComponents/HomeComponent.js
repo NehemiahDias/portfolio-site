@@ -12,7 +12,7 @@ function HomeComonent() {
           Nehemiah Dias
         </h1>
         <h1 className="md:text-6xl sm:text-4xl text-3xl text-lightOffP-500 dark:text-offP-500 mt-2 ">
-          Front-End Web Developer
+          Design Engineer
         </h1>
       </div>
     </section>
